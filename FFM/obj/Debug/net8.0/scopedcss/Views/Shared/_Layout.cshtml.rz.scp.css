@@ -1,9 +1,5 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-:root[b-lhnyh4w4af] {
-    --primary-color: #BBDC93;
-    --secondary-color: #75A253;
-}
 
 a.navbar-brand[b-lhnyh4w4af] {
   white-space: normal;
@@ -15,12 +11,6 @@ a[b-lhnyh4w4af] {
   color: #0077cc;
 }
 
-.btn-primary[b-lhnyh4w4af] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
 .nav-pills .nav-link.active[b-lhnyh4w4af], .nav-pills .show > .nav-link[b-lhnyh4w4af] {
   color: #fff;
   background-color: #1b6ec2;
@@ -30,6 +20,7 @@ a[b-lhnyh4w4af] {
 .border-top[b-lhnyh4w4af] {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-lhnyh4w4af] {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -46,17 +37,46 @@ button.accept-policy[b-lhnyh4w4af] {
 .footer[b-lhnyh4w4af] {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 99.5%;
     min-height: 10em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /*white-space: nowrap;*/
+    flex-direction: column;
+    padding: 1.25em 0 .5em 0;
     line-height: normal;
-    /*background-color: var(--primary-color);*/
+    background-color: #ecf5e0;
 }
 
-.footer-descr > span[b-lhnyh4w4af], .footer-comment > span[b-lhnyh4w4af] {
+.footer-content[b-lhnyh4w4af] {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.footer-descr > span[b-lhnyh4w4af], .footer-info > span[b-lhnyh4w4af], .footer-contact > span[b-lhnyh4w4af], .footer-social > span[b-lhnyh4w4af], .footer-comment > span[b-lhnyh4w4af] {
     display: block;
+    padding: .15em 0;
+}
+
+.footer-spacing[b-lhnyh4w4af] {
+    margin: .25em 0;
+}
+
+.footer-form[b-lhnyh4w4af] {
+    padding: .15em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitBtn[b-lhnyh4w4af] {
+    display: flex;
+    justify-content: end;
+    margin-top: .15em;
+}
+
+.copyright[b-lhnyh4w4af] {
+    text-align: center;
+    margin: 0;
+    padding: .5em 0;
 }
 

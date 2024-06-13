@@ -38,83 +38,97 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-		<div class="footer-descr">
-            <span>FFM</span>
-            <span>Fresh Foods,</span>
-            <span>Healthier Living</span>
-        </div>
-		<div>
-			<span>INFORMATION</span>
-			<div>
-                <span class="material-symbols-outlined">
-                    chevron_right
-                </span>
-				<span>Terms & Conditions</span>
+    <footer class="border-top footer">
+		<div class="footer-content">
+            <div class="footer-descr">
+                <h1>FFM</h1>
+                <span>Fresh Foods,</span>
+                <span>Healthier Living</span>
             </div>
-            <div>
-                <span class="material-symbols-outlined">
-                    chevron_right
-                </span>
-                <span>FFM FAQ</span>
-            </div>
-        </div>
-		<div>
-			<span>CONTACT US</span>
-			<div>
-                <span class="material-symbols-outlined">
-                    call
-                </span>
-				<span>+604-1234567</span>
-            </div>
-			<div>
-				<a href="#">
-                    <span class="material-symbols-outlined">
-                        mail
-                    </span>
-				    <span>ffm@gmail.com</span>
-                </a>
-            </div>
-        </div>
-		<div>
-			<span>FOLLOW US ON</span>
-			<div>
-				<div>
-                    <i class="fab fa-facebook-square"></i>
-                    <span>FFM Fresh Foods</span>
-                </div>
-				<div>
-                    <a href="#">
-                        <i class="fab fa-telegram"></i>
-                        <span>FFM Fresh Foods</span>
+            <div class="footer-info">
+                <span>INFORMATION</span>
+                <div class="footer-spacing">
+                    <a asp-area="" asp-controller="" asp-action="" class="icon">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        Terms & Conditions
                     </a>
                 </div>
-				<div>
-                    <i class="fab fa-instagram-square"></i>
-                    <span>FFM Fresh Foods</span>
+                <div class="footer-spacing">
+                    <a asp-area="" asp-controller="" asp-action="" class="icon">
+                        <span class="material-symbols-outlined">
+                            chevron_right   
+                        </span>
+                        FFM FAQ
+                    </a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <span>CONTACT US</span>
+                <div class="footer-spacing">
+                    <a asp-area="" asp-controller="" asp-action="" class="icon" >
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        +604-1234567
+                    </a>
+                </div>
+                <div class="footer-spacing">
+                    <a asp-area="" asp-controller="" asp-action="" class="icon" >
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        ffm@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <span>FOLLOW US ON</span>
+                <div>
+                    <div class="footer-spacing">
+                        <a asp-area="" asp-controller="" asp-action="" class="icon">
+                            <i class="fab fa-facebook-square"></i>
+                            FFM Fresh Foods
+                        </a>
+                    </div>
+                    <div class="footer-spacing">
+                        <a asp-area="" asp-controller="" asp-action="" class="icon">
+                            <i class="fab fa-telegram"></i>
+                            FFM Fresh Foods
+                        </a>
+                    </div>
+                    <div class="footer-spacing">
+                        <a asp-area="" asp-controller="" asp-action="" class="icon">
+                            <i class="fab fa-instagram-square"></i>
+                            FFM Fresh Foods
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-comment">
+                <span>LEAVE YOUR FEEDBACK</span>
+                <span>TO LET US SERVE YOU BETTER</span>
+                <div>
+                    <form action="/" method="post">
+                        <div class="genericInputField footer-form">
+                            <label>Email</label>
+                            <input type="text" value="" />
+                        </div>
+                        <div class="genericInputField footer-form">
+                            <label>Feedback</label>
+                            <textarea name="feedback" cols="30" rows="5"></textarea>
+                        </div>
+                        <div class="line"></div>
+                        <div class="submitBtn">
+                            <input type="submit" value="SUBMIT" class="btnPrimary" />
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-		<div class="footer-comment">
-			<span>LEAVE YOUR FEEDBACK</span>
-			<span>TO LET US SERVE YOU BETTER</span>
-			<div>
-				<form action="/" method="post">
-					<div class="genericInputField">
-						<label>Email</label>
-						<input type="text" value="" />
-                    </div>
-					<div class="genericInputField">
-						<label>Feedback</label>
-						<textarea name="feedback" cols="20" rows="5"></textarea>
-                    </div>
-					<div class="line"></div>
-					<div>
-						<input type="submit" value="SUBMIT" class="btnPrimary"/>
-                    </div>
-                </form>
-            </div>
-        </div>
+        <p class="copyright">&copy; 2024, Fresh Food Market. All Rights Reserved</p>
         @* <div class="container">
             &copy; 2024 - FFM - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div> *@

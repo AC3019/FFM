@@ -3,7 +3,7 @@
     --secondary-color: #75A253;
     --text-primary-color: #FFFFFF;
     --outline: rgba(0, 0, 0, 0.4);
-    --primary-shadow: rgba(187, 220, 147, 0.55);
+    --primary-shadow: rgba(115, 155, 70, 0.4);
 }
 
 html {
@@ -20,14 +20,37 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
+html, body, *:not(span) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+input, select, textarea {
+    outline: none;
+    transition: .25s;
+}
+
+/*a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0em !important;
+}*/
+
+/*html {
   position: relative;
   min-height: 100%;
+  max-width: 100%;
 }
 
 body {
   margin-bottom: 60px;
-}
+}*/
 
 .flex {
     display: flex;
@@ -35,6 +58,15 @@ body {
 
 .line {
     border: 1.25px solid black;
+    margin-top: .15em;
+}
+
+.icon {
+    all: unset;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: .25em;
 }
 
 .genericInputField > input,
@@ -56,6 +88,8 @@ body {
 .btnPrimary {
     border-radius: .5em;
     padding: .5em, .75em;
+    min-width: 5em; 
+    height: 2em;
     text-align: center;
     cursor: pointer;
     background-color: var(--secondary-color);
