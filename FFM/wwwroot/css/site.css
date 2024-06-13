@@ -1,0 +1,63 @@
+﻿:root {
+    --primary-color: #BBDC93;
+    --secondary-color: #75A253;
+    --text-primary-color: #FFFFFF;
+    --outline: rgba(0, 0, 0, 0.4);
+    --primary-shadow: rgba(187, 220, 147, 0.55);
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.flex {
+    display: flex;
+}
+
+.line {
+    border: 1.25px solid black;
+}
+
+.genericInputField > input,
+.genericInputField > textarea {
+    border: 1px solid var(--outline) !important;
+    padding: .35em;
+    border-radius: .5em;
+    flex-grow: 1;
+}
+
+.genericInputField > input:focus,
+.genericInputField > textarea:focus {
+    outline: none;
+    border: 1px solid var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
+
+.btnPrimary {
+    border-radius: .5em;
+    padding: .5em, .75em;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--text-primary-color);
+}
