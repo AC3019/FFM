@@ -12,25 +12,49 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FFM</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <div class="border-bottom box-shadow">
+            <div class="welcome">
+				<span>Welcome, Username</span>
+                @* will be replace by login and sign up button if not logged in *@
+            </div>
+			<div class="header">
+                <div class="header-content">
+                    <div class="">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="icon">
+                            <h1>FFM</h1>
+                        </a>
+                    </div>
+
+                    <div class="icon search">
+                        <span class="material-symbols-outlined searchIcon">
+                            search
+                        </span>
+                        <input type="text" name="item" value="" class="searchTextBox" placeholder="Search Item" />
+                        <div>
+                            <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+                        </div>
+                    </div>
+                </div>
+				<div class="header-icon">
+                    <a asp-area="" asp-controller="" asp-action="" class="icon">
+                        <span>Shopping Cart</span>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                    <a asp-area="" asp-controller="" asp-action="" class="icon">
+                        <span class="material-symbols-outlined">
+                            history
+                        </span>
+                    </a>
+                    <a asp-area="" asp-controller="" asp-action="" class="icon">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </a>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -103,7 +127,6 @@
                             <i class="fab fa-instagram-square"></i>
                             FFM Fresh Foods
                         </a>
-                        
                     </div>
                 </div>
             </div>
