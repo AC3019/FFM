@@ -41,7 +41,7 @@ a[b-lhnyh4w4af] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #ecf5e0;
+    background-color: #F0F0F0; /*#ecf5e0;*/
 }
 
 .header-title[b-lhnyh4w4af] {
@@ -111,15 +111,15 @@ a[b-lhnyh4w4af] {
 }
 
 .footer[b-lhnyh4w4af] {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
-    width: 99.5%;
+    width: 100%;
     min-height: 10em;
     display: flex;
     flex-direction: column;
     padding: 1.25em 0 .5em 0;
     line-height: normal;
-    background-color: #ecf5e0;
+    background-color: #F0F0F0;
 }
 
 .footer-content[b-lhnyh4w4af] {

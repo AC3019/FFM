@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="content">
+        <h3>Welcome to FFM! Please login.</h3>
+		<div class="form">
+			<h1>LOGIN</h1>
+			<div class="line"></div>
+			<form action="" method="post">
+				<div class="genericInputField input">
+					<label>Email Address</label>
+                    <input type="text" name="email" value="" placeholder="example@gmail.com" />
+                </div>
+                <div class="genericInputField input">
+                    <label>Password</label>
+                    <input type="password" name="password" value="" />
+                    <a asp-area="" asp-controller="" asp-action="" class="icon forgotPassword">
+                        <span>Forgot Password?</span>
+                    </a>
+                </div>
+                <div>
+                    <input type="submit" name="name" value="LOGIN" class="btnPrimary btnLogin" />
+                </div>
+            </form>
+			<div class="noAccount">
+				<span>No Account?</span>
+                <a asp-area="" asp-controller="Home" asp-action="Register" class="icon newAccount">
+                    <span>Click Here</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

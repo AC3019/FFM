@@ -1,0 +1,51 @@
+﻿.content {
+    padding: 1em 16em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.input {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 4em .5em 4em;
+}
+
+.forgotPassword {
+    margin-top: .5em;
+    display: flex;
+    justify-content: end;
+}
+
+.forgotPassword:hover {
+    color: var(--secondary-color);
+}
+
+.btnLogin {
+    width: 10%;
+}
+
+.noAccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .25em;
+    margin-top: 1em;
+}
+
+.newAccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.newAccount:hover {
+    color: var(--secondary-color);
+}
