@@ -1,0 +1,125 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 3em;
+    width: 100%
+}
+
+.content {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.sub-content {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: .5em;
+}
+
+.sub-content > h4 {
+    text-align: center;
+    margin-bottom: .15em;
+}
+
+.sub-content > span {
+    font-size: .65em;
+    margin-top: .15em;
+    display: flex;
+    justify-content: center;
+}
+
+.purchaseHistoryContainer {
+    border: 1px solid var(--outline);
+    padding: 0.5em 1em;
+    border-radius: .5em;
+    width: 100%;
+    margin: .5em .25em 0 .25em;
+    display: grid;
+    row-gap: .35em;
+}
+
+.purchaseHistoryContainer > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noPurchaseHistory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .75em;
+    margin-top: 1em;
+}
+
+.purchaseNow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.purchaseNow:hover {
+    color: var(--secondary-color);
+}
+
+.display-content {
+    padding: 1em;
+    display: grid;
+    row-gap: .25em;
+    color: darkslategrey;
+}
+
+.display-content-info {
+    padding-left: .5em;
+    margin-bottom: .5em;
+    color: black;
+}
+
+.delivery-pc-area {
+    display: flex;
+    gap: 2.75em;
+}
+
+.update {
+    display: flex;
+    justify-content: end;
+}
+
+.btnUpdate {
+    justify-content: center;
+    font-size: .9em;
+}
+
+.sub-content-leaveNow {
+    text-align: center;
+}
+
+.leaveNow {
+    padding: 1em 0;
+}
+
+.leaveNow > span, .delete > span {
+    font-style: italic;
+}
+
+.leaveNow > div, .btnDelete {
+    margin-top: .5em;
+}
+
+.delete {
+    display: grid;
+    padding: 0 1em 1em 1em;
+}
+
+.delete > div {
+    display: flex;
+    justify-content: center;
+}
+
+.btnDelete {
+    justify-content: center;
+    font-size: .9em;
+}

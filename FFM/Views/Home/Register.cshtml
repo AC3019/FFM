@@ -14,25 +14,77 @@
 <body>
     <div class="content">
         <h3>Create your first FFM account.</h3>
-        <div class="">
-            <h1>REGISTER</h1>
+        <div class="form">
+            <div class="form-header icon">
+                <a asp-area="" asp-controller="Home" asp-action="Login" class="icon">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </a>
+                <h1>REGISTER</h1>
+            </div>
             <div class="line"></div>
             <form action="" method="post">
-                <div class="genericInputField">
-                    <label>Email Address</label>
-                    <input type="text" name="email" value="" placeholder="example@gmail.com" />
-                </div>
-                <div class="genericInputField i">
-                    <label>Password</label>
-                    <input type="password" name="password" value="" />
+				<div class="form-input">
+					<div class="form-content">
+                        <div class="genericInputField input">
+                            <label>Username</label>
+                            <input type="text" name="" value="" placeholder="Lim" />
+                        </div>
+                        <div class="genericInputField input">
+                            <label>Email Address</label>
+                            <input type="text" name="email" value="" placeholder="example@gmail.com" />
+                        </div>
+                        <div class="genericInputField input">
+                            <label>Phone Number</label>
+                            <input type="text" name="" value="" placeholder="0123456789" />
+                        </div>
+                    </div>
+					<div class="form-content">
+                        <div class="genericInputField input">
+                            <label>Date of Birth</label>
+                            <input type="date" name="" value="" />
+                        </div>
+                        <div class="genericInputField input">
+                            <label>Password</label>
+                            <input type="password" name="password" value="" />
+                        </div>
+                        <div class="genericInputField input">
+                            <label>Confirm Password</label>
+                            <input type="password" name="" value="" />
+                        </div>
+                    </div>
+					<div>
+                        <div class="genericInputField input">
+                            <label>Address Line 1</label>
+                            <input type="text" name="" value="" placeholder="14, Jalan Happy" />
+                        </div>
+                        <div class="genericInputField input">
+                            <label>Address Line 2 (Optinal)</label>
+                            <input type="text" name="" value="" />
+                        </div>
+						<div class="input-address">
+                            <div class="genericInputField input">
+                                <label>Post Code</label>
+                                <input type="text" name="" value="" placeholder="11900" />
+                            </div><div class="genericInputField input">
+                                <label>Area</label>
+                                <input type="text" name="" value="" placeholder="Bayan Lepas" />
+                            </div>
+                        </div>
+                        <div class="genericInputField input">
+                            <label>State</label>
+                            <input type="text" name="" value="" placeholder="Pulau Pinang" />
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <input type="submit" name="name" value="LOGIN" class="btnPrimary" />
+                    <input type="submit" name="name" value="REGISTER" class="btnPrimary btnRegister" />
                 </div>
             </form>
-            <div class="">
+            <div class="hasAccount">
                 <span>Already have an account?</span>
-                <a asp-area="" asp-controller="Home" asp-action="Login" class="icon">
+                <a asp-area="" asp-controller="Home" asp-action="Login" class="gotAccount icon">
                     <span>Click Here</span>
                 </a>
             </div>

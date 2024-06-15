@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\FFM.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cusPersonalInfo.css",
+      "PackagePath": "staticwebassets\\css\\cusPersonalInfo.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cusUpdateAccountInfo.css",
+      "PackagePath": "staticwebassets\\css\\cusUpdateAccountInfo.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -15,6 +23,10 @@
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateDeliveryAddress.css",
+      "PackagePath": "staticwebassets\\css\\updateDeliveryAddress.css"
     },
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\favicon.ico",

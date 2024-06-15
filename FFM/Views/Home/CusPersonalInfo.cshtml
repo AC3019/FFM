@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewData["Title"] = "CusPersonalInfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/cusPersonalInfo.css" asp-append-version="true" />
+</head>
+<body>
+    <h2>Personal Information</h2>
+    <div class="container">
+        <div class="sub-content">
+            <h4>Purchase History</h4>
+            <div class="line"></div>
+			<span>CLICK ON THE PURCHASE HISTORY TO SEE IN DETAIL</span>
+            @* no idea can how achieve *@
+            <a asp-area="" asp-controller="" asp-action="" class="icon">
+				<div class="purchaseHistoryContainer">
+					<div>
+						<label>Order ID</label>
+						<label>Purchase Amount</label>
+                    </div>
+					<div>
+						<label>Purchase Date</label>
+                    </div>
+                </div>
+            </a>
+            @* this will be displayed if no purchase record *@
+            <div class="noPurchaseHistory">
+                <h2>NO PURCHASE HISTORY</h2>
+                <a asp-area="" asp-controller="Home" asp-action="" class="icon purchaseNow">
+                    <span>PURCHASE NOW?</span>
+                </a>
+            </div>
+        </div>
+        <div class="sub-content">
+            <h4>Personal Account Information</h4>
+            <div class="line"></div>
+			<div class="display-content">
+                <label><b>Username</b></label>
+				<div class="display-content-info">
+                    <label>Username</label>
+                </div>
+                <label><b>Phone Number</b></label>
+				<div class="display-content-info">
+                    <label>Phone Number</label>
+                </div>
+                <label><b>Email Address</b></label>
+				<div class="display-content-info">
+                    <label>Email Address</label>
+                </div>
+                <label><b>Password</b></label>
+				<div class="display-content-info">
+                    <label>Password</label>
+                </div>
+            </div>
+            <div class="update">
+                <a asp-area="" asp-controller="Home" asp-action="CusUpdateAccountInfo" class="icon btnPrimary btnUpdate">
+                    UPDATE
+                </a>
+            </div>
+        </div>
+		<div class="sub-content">
+            <h4>Delivery Address Information</h4>
+            <div class="line"></div>
+			<div class="display-content">
+                <label><b>Address Line 1</b></label>
+				<div class="display-content-info">
+                    <label>Address Line 1</label>
+                </div>
+                <label><b>Address Line 2 (Optional)</b></label>
+                <div class="display-content-info">
+                    <label>Address Line 2</label>
+                </div>
+				<div class="delivery-pc-area">
+					<div>
+                        <label><b>Post Code</b></label>
+                        <div class="display-content-info">
+                            <label>Post Code</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label><b>Area</b></label>
+                        <div class="display-content-info">
+                            <label>Area</label>
+                        </div>
+                    </div>
+                </div>
+                <label><b>State</b></label>
+                <div class="display-content-info">
+                    <label>State</label>
+                </div>                
+            </div>
+			<div class="update">
+                <a asp-area="" asp-controller="Home" asp-action="UpdateDeliveryAddress" class="icon btnPrimary btnUpdate">
+                    UPDATE
+                </a>
+            </div>
+        </div>
+		<div class="sub-content sub-content-leaveNow">
+			<h4>Leave Now</h4>
+			<div class="line"></div>
+			<div class="leaveNow">
+                <span>Are You Done for Now?</span>
+				<div>
+                    <input type="submit" value="LOGOUT" class="btnPrimary" />
+                </div>
+            </div>
+			<div class="delete">
+                <span>Delete Account?</span>
+				<div>
+                    <a asp-area="" asp-controller="Home" asp-action="" class="icon btnPrimary btnDelete">
+                        DELETE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

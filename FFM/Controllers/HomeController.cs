@@ -33,6 +33,21 @@ namespace FFM.Controllers
             return View();
         }
 
+        public IActionResult UpdateDeliveryAddress()
+        {
+            return View();
+        }
+
+        public IActionResult CusUpdateAccountInfo()
+        {
+            return View();
+        }
+
+        public IActionResult cusPersonalInfo()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
