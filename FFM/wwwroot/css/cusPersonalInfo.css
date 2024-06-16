@@ -105,7 +105,7 @@
     font-style: italic;
 }
 
-.leaveNow > div, .btnDelete {
+.leaveNow > div, .delete > div {
     margin-top: .5em;
 }
 
@@ -119,7 +119,44 @@
     justify-content: center;
 }
 
-.btnDelete {
+.popUpContainer {
+    display: flex;
     justify-content: center;
-    font-size: .9em;
+    background-color: var(--outline);
+    /*align-items: center;*/
+    padding: 2.5em 0 0 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% + 1em);
+    visibility: hidden;
+    position: absolute; 
+}
+
+.popUp {
+    width: 45%;
+    height: fit-content;
+    padding: 3em 3em;
+    border: 1px solid var(--outline);
+    box-shadow: 0 3px 16px var(--pop-up-shadow);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: justify;
+    background-color: white;
+    transform: translateY(-50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popUp {
+    visibility: visible;
+    transform: scale(1);
+    transition-timing-function: ease-out;
+}
+
+.popUpBtn {
+    display: flex;
+    padding: 1em 5em 0em;
+    justify-content: space-between;
 }

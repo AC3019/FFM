@@ -43,7 +43,7 @@ namespace FFM.Controllers
             return View();
         }
 
-        public IActionResult cusPersonalInfo()
+        public IActionResult CusPersonalInfo()
         {
             return View();
         }

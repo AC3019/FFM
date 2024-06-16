@@ -114,13 +114,29 @@
 			<div class="delete">
                 <span>Delete Account?</span>
 				<div>
-                    <a asp-area="" asp-controller="Home" asp-action="" class="icon btnPrimary btnDelete">
+                    <input type="submit" value="DELETE" class="btnPrimary" onclick="openPopUp()" />
+                    @* <a asp-area="" asp-controller="Home" asp-action="CusDeleteAccount" class="icon btnPrimary btnDelete">
                         DELETE
-                    </a>
+                    </a> *@
                 </div>
             </div>
         </div>
     </div>
+    <div class="popUpContainer" id="popUpContainer">
+        <div class="popUp" id="popUp">
+            <h2>Are you sure?</h2>
+            <p>
+                By confirming this action, the account will be permanently
+                remove and all your data associated with it and you will not
+                able to recover back the account and the associated data.
+            </p>
+            <div class="popUpBtn">
+                <input type="submit" value="DELETE" class="btnPrimary" onclick="" />
+                <input type="submit" value="CANCEL" class="btnPrimary" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <script src="~/js/cusPersonalInfo.js" asp-append-version="true"></script>
 </body>
 </html>
 
