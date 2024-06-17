@@ -48,6 +48,21 @@ namespace FFM.Controllers
             return View();
         }
 
+        public IActionResult OrderDetails()
+        {
+            return View();
+        }
+
+        public IActionResult ViewOrders()
+        {
+            return View();
+        }
+
+        public IActionResult OrderStatus()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

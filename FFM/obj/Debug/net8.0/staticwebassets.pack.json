@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\orderDetails.css",
+      "PackagePath": "staticwebassets\\css\\orderDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\orderStatus.css",
+      "PackagePath": "staticwebassets\\css\\orderStatus.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\register.css",
       "PackagePath": "staticwebassets\\css\\register.css"
     },
@@ -27,6 +35,10 @@
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateDeliveryAddress.css",
       "PackagePath": "staticwebassets\\css\\updateDeliveryAddress.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewOrders.css",
+      "PackagePath": "staticwebassets\\css\\viewOrders.css"
     },
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\favicon.ico",

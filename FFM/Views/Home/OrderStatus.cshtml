@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "OrderStatus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/orderStatus.css" asp-append-version="true" />
+</head>
+<body>
+    <h2>View Order Status</h2>
+    <div class="content">
+        <div class="form">
+            <div class="form-header">
+                <a asp-area="" asp-controller="Home" asp-action="ViewOrders" class="icon">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </a>
+                <h1>ORDER ID</h1>
+            </div>
+            <div class="line"></div>
+            <div class="progressBarContainer">
+                <div class="progressBar">
+                    <div class="progress" id="progress"></div>
+                    <div class="step">
+                        <div class="circle active">
+                            1
+                        </div>
+                        Order Received
+                    </div>
+                    <div class="step">
+                        <div class="arrow">
+                            <div class="iconArrow">
+                                ▶
+                            </div>
+                            <div class="circle">
+                                2
+                            </div>
+                        </div>
+                        Preparing Order
+                    </div>
+                    <div class="step">
+                        <div class="arrow">
+                            <div class="iconArrow">
+                                ▶
+                            </div>
+                            <div class="circle">
+                                3
+                            </div>
+                        </div>
+                        Delivering Order
+                    </div>
+                    <div class="step">
+                        <div class="arrow">
+                            <div class="iconArrow">
+                                ▶
+                            </div>
+                            <div class="circle">
+                                4
+                            </div>
+                        </div>
+                        Order Reached
+                    </div>
+                </div>
+            </div>
+            @* For testing the js for progress bar *@
+            @* <div class="testing">
+            <button class="btn" id="pre">Previous</button>
+            <button class="btn" id="next">Next</button>
+            </div>  *@
+            <div class="orderInfo">
+                <p>Current Status: Order Received</p>
+                <p>Purchase Date: @DateTime.Today.ToShortDateString()</p>
+                <p>Purchase Amount: RM 123.45</p>
+            </div>
+            <div class="btn">
+                <a asp-area="" asp-controller="Home" asp-action="ViewOrders" class="icon btnPrimary btnClose">
+                    CLOSE
+                </a>
+            </div>
+            <div class="btn">
+                <a asp-area="" asp-controller="Home" asp-action="OrderDetails" class="icon btnPrimary btnViewDetails">
+                    VIEW ORDER DETAILS
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+</html>
+

@@ -5,6 +5,7 @@
     --outline: rgba(0, 0, 0, 0.4);
     --primary-shadow: rgba(115, 155, 70, 0.4);
     --pop-up-shadow: rgba(208, 52, 44, 0.6);
+    --line-border-empty: #383838;
 }
 
 /*html {

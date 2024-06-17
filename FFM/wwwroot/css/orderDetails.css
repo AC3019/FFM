@@ -1,0 +1,74 @@
+﻿.content {
+    padding: 1em 4em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.form-header {
+    display: flex;
+    gap: 30em;
+}
+
+.orderInfo {
+    padding: .5em;
+    font-size: 1.35em;
+    display: grid;
+    gap: .25em;
+    font-weight: bolder;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid var(--outline);
+    border-radius: .25em;
+    margin: .5em 0;
+}
+
+.table > table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid var(--outline);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: silver;
+    text-align: left;
+}
+
+th, td {
+    padding: .5em;
+}
+
+.productColumn {
+    width: 40%
+}
+
+.quantityColumn {
+    width: 15%
+}
+
+.unitPriceColumn {
+    width: 22.5%;
+}
+
+.totalColumn {
+    width: 22.5%;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.btnClose {
+    justify-content: center;
+}
