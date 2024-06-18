@@ -11,7 +11,7 @@
 
 .form-header {
     display: flex;
-    gap: 20em;
+    justify-content: space-between;
 }
 
 .form-content {

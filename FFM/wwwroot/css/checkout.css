@@ -1,0 +1,121 @@
+﻿.content {
+    display: grid;
+    grid-template-columns: 65% 30%;
+    justify-content: space-between;
+    padding-top: .5em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-header {
+    display: flex;
+    text-decoration: underline;
+    padding-bottom: .5em;
+    font-size: 1.1em;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid var(--outline);
+    border-radius: .25em;
+    margin: .5em 0;
+}
+
+.table > table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid var(--outline);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: silver;
+    text-align: left;
+}
+
+th, td {
+    padding: .5em;
+}
+
+.productImageColumn {
+    width: 20%
+}
+
+.productNameColumn {
+    width: 30%
+}
+
+.quantityColumn {
+    width: 15%
+}
+
+.unitPriceColumn {
+    width: 20%;
+}
+
+.totalColumn {
+    width: 25%;
+}
+
+.quantity {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.quantityInput {
+    align-self: stretch;
+    border: 1px solid var(--outline);
+    width: 100%;
+    text-align: center;
+    padding: .5em;
+}
+
+.quantityInput:focus-within {
+    border-color: var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
+
+.adjustQuantity {
+    display: grid;
+}
+
+.deleteQuantity {
+    
+}
+
+.quantityBtn {
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkoutInfo {
+    padding: 1em;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.btnPay {
+    justify-content: center;
+    font-size: .9em;
+    width: 50%;
+}
+

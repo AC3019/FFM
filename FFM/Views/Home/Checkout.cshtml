@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/checkout.css" asp-append-version="true" />
+</head>
+<body>
+    <h2>Checkout</h2>
+	<div class="content">
+		<div class="form">
+            <div class="checkout-header">
+				<p>Checkout Items</p>
+            </div>
+            <div class="table">
+                <table>
+					<tr>
+                        <th class="productImageColumn">PRODUCT IMAGE</th>
+                        <th class="productNameColumn">PRODUCT NAME</th>
+                        <th class="quantityColumn">QUANTITY</th>
+                        <th class="unitPriceColumn">UNIT PRICE</th>
+                        <th class="totalColumn">TOTAL</th>
+                    </tr>
+					<tr>
+                        <td></td>
+                        <td>Maggie</td>
+                        <td>
+                            <div class="quantity">
+                                <input type="text" name="qty" value="1" class="quantityInput" />
+								<div class="adjustQuantity">
+                                    <button class="quantityBtn" >
+                                        <span class="material-symbols-outlined">
+                                            keyboard_arrow_up
+                                        </span>
+                                    </button>
+                                    <button class="quantityBtn">
+                                        <span class="material-symbols-outlined">
+                                            keyboard_arrow_down
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="deleteQuantity">
+                                    <button class="quantityBtn">
+                                        <span class="material-symbols-outlined">
+                                            delete
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+		<div class="form">
+            <div class="form-header">
+                <a asp-area="" asp-controller="Home" asp-action="Cart" class="icon">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </a>
+                <h1>CHECKOUT</h1>
+                @* add to make it display center *@
+                <div class="none">
+                    ha
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="checkoutInfo">
+                <h2>Total Amount: RM 123.45</h2>
+            </div>
+            <div class="pay">
+                <a asp-area="" asp-controller="Home" asp-action="ViewOrders" class="btnPrimary btnPay icon">
+                    PAY NOW
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

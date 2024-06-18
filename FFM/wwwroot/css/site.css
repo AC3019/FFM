@@ -97,3 +97,7 @@ body {
     background-color: var(--secondary-color);
     color: var(--text-primary-color);
 }
+
+.none {
+    visibility: hidden;
+}
