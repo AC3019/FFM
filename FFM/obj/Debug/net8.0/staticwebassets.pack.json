@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\FFM.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\checkout.css",
       "PackagePath": "staticwebassets\\css\\checkout.css"
     },

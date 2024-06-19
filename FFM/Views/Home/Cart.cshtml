@@ -4,5 +4,203 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Cart</h1>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/cart.css" asp-append-version="true" />
+</head>
+<body>
+    <h2>Cart</h2>
+    <div class="personal-content">
+        <div class="form flex-start">
+            <h4>Delivery Address</h4>
+            <div class="line"></div>
+            <div class="address">
+                <div class="genericInputField input">
+                    <label>Address Line 1</label>
+                    <input type="text" name="" value="" />
+                </div>
+                <div class="genericInputField input">
+                    <label>Address Line 2 (Optinal)</label>
+                    <input type="text" name="" value="" />
+                </div>
+                <div class="delivery-pc-area">
+                    <div class="genericInputField input">
+                        <label>Post Code</label>
+                        <input type="text" name="" value="" />
+                    </div><div class="genericInputField input">
+                        <label>Area</label>
+                        <input type="text" name="" value="" />
+                    </div>
+                </div>
+                <div class="genericInputField input">
+                    <label>State</label>
+                    <input type="text" name="" value="" />
+                </div>
+            </div>
+            <div class="useMyHome">
+                <a asp-area="" asp-controller="Home" asp-action="" class="btnPrimary btnUseMyHome icon">
+                    USE MY HOME
+                </a>
+            </div>
+        </div>
+		<div class="form cart">
+			<div>
+			    <div class="cart-header">
+				    <p>Shopping Cart</p>
+                </div>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th class="productImageColumn">PRODUCT IMAGE</th>
+                            <th class="productNameColumn">PRODUCT NAME</th>
+                            <th class="quantityColumn">QUANTITY</th>
+                            <th class="unitPriceColumn">UNIT PRICE</th>
+                            <th class="totalColumn">TOTAL</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Maggie</td>
+                            <td>
+                                <div class="quantity">
+                                    <input type="text" name="qty" value="1" class="quantityInput" />
+                                    <div class="adjustQuantity">
+                                        <button class="quantityBtn">
+                                            <span class="material-symbols-outlined">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </button>
+                                        <button class="quantityBtn">
+                                            <span class="material-symbols-outlined">
+                                                keyboard_arrow_down
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div class="deleteQuantity">
+                                        <button class="quantityBtn">
+                                            <span class="material-symbols-outlined">
+                                                delete
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+			<div class="checkoutInfo">
+				<div class="checkOutAmount">
+				    <div>
+					    <span><b>Total:</b></span>
+                    </div>
+                    <div>
+                        <span><b>RM 123.45</b></span>
+                    </div>
+                </div>
+                <div class="checkOutBtn">
+                    <div class="continueShopping">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="icon btnPrimary btnContinueShopping">
+                            CONTINUE SHOPPING
+                        </a>
+                    </div>
+                    <div class="checkOut">
+                        <a asp-area="" asp-controller="Home" asp-action="Checkout" class="icon btnPrimary btnCheckout">
+                            CHECKOUT NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contentLine"></div>
+	<div class="content">
+		<p>ITEMS OTEHR PEOPLE ALSO BOUGHT</p>
+        <div class="itemContainer">
+            <div class="header-content">
+                <div class="header">
+                    <h3>ITEMS PEOPLE ALSO BOUGHT</h3>
+                </div>
+                <div class="seeAllItems">
+                    <a asp-area="" asp-controller="Home" asp-action="CusPersonalInfo" class="seeAllItemsBtn icon">
+                        SEE ALL ITEMS
+                    </a>
+                </div>
+            </div>
+            <div class="allItems">
+                @* here display all the order to be received *@
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+					    <div class="">
+							<img src="" alt="picture of product" />
+                        </div>
+                    </a>
+					<div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>CASHEWNUT</label>
+                        </a>
+						<div class="line"></div>
+						<label>RM8 / KG</label>
+                    </div>
+                    <div class="genericInputField add">
+                        <select>
+                            <option value="0.1">0.10 KG / RM 0.80</option>
+                            <option value="0.2">0.20 KG / RM 1.60</option>
+                            <option value="0.3">0.30 KG / RM 2.40</option>
+                            <option value="0.4">0.40 KG / RM 3.20</option>
+                            <option value="0.5">0.50 KG / RM 4.00</option>
+                            <option value="0.6">0.60 KG / RM 4.80</option>
+                            <option value="0.7">0.70 KG / RM 5.60</option>
+                            <option value="0.8">0.80 KG / RM 6.40</option>
+                            <option value="0.9">0.90 KG / RM 7.20</option>
+                            <option value="1">1.00 KG / RM 8.00</option>
+                        </select>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>MAGGI</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM5</label>
+                    </div>
+                    <div class="genericInputField add icon">
+						<button class="minusBtn">
+                            <span class="material-symbols-outlined">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" value="1" class="quantityField" />
+                        <button class="addBtn">
+                            <span class="material-symbols-outlined">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
 

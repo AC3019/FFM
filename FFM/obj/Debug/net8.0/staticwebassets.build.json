@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PTGnno0sX4eZYgcQBF4l8eFtfUTFBmHACVSK5ItEBJM=",
+  "Hash": "6QTjfcvvC2D54FSRrgbFWZChB7pKHZb5Ya4AMtK31KA=",
   "Source": "FFM",
   "BasePath": "_content/FFM",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FFM.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cart.css",
+      "SourceId": "FFM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\",
+      "BasePath": "_content/FFM",
+      "RelativePath": "css/cart.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cart.css"
     },
     {
       "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\checkout.css",

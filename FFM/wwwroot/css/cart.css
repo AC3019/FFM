@@ -1,0 +1,275 @@
+﻿.personal-content {
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: 30.5% 67%;
+    justify-content: space-between;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.input {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em .5em 0em;
+}
+
+.delivery-pc-area {
+    display: flex;
+    gap: .75em;
+}
+
+.useMyHome {
+    display: flex;
+    justify-content: end;
+    padding-top: .5em;
+}
+
+.btnUseMyHome {
+    width: 40%;
+    justify-content: center;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-header {
+    display: flex;
+    text-decoration: underline;
+    padding-bottom: .5em;
+    font-size: 1.1em;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid var(--outline);
+    border-radius: .25em;
+    margin: .5em 0;
+}
+
+.table > table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid var(--outline);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: silver;
+    text-align: left;
+}
+
+th, td {
+    padding: .5em;
+}
+
+.productImageColumn {
+    width: 20%
+}
+
+.productNameColumn {
+    width: 30%
+}
+
+.quantityColumn {
+    width: 15%
+}
+
+.unitPriceColumn {
+    width: 20%;
+}
+
+.totalColumn {
+    width: 25%;
+}
+
+.quantity {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.quantityInput {
+    align-self: stretch;
+    border: 1px solid var(--outline);
+    width: 100%;
+    text-align: center;
+    padding: .5em;
+}
+
+.quantityInput:focus-within {
+    border-color: var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
+
+.adjustQuantity {
+    display: grid;
+}
+
+.deleteQuantity {
+}
+
+.quantityBtn, .addBtn, .minusBtn {
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkoutInfo {
+    display: grid;
+    row-gap: .5em;
+}
+
+.checkOutAmount {
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+}
+
+.checkOutBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.continueShopping {
+    display: flex;
+    justify-content: start;
+}
+
+.checkOut {
+    display: flex;
+    justify-content: end;
+}
+
+.btnContinueShopping {
+    min-width: 125%;
+    justify-content: center;
+} 
+
+.btnCheckout {
+    min-width: 120%;
+    justify-content: center;
+}
+
+.contentLine {
+    border-bottom: 1px solid var(--outline);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    padding: 1em 0;
+}
+
+.content > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.itemContainer {
+    display: grid;
+    grid-template-columns: 12% auto;
+    margin-top: 1em;
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+}
+
+.header-content {
+    display: grid;
+    grid-template-rows: auto min-content;
+}
+
+.header {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--outline);
+}
+
+.seeAllItems {
+    border-right: 1px solid var(--outline);
+}
+
+.seeAllItemsBtn {
+    justify-content: center;
+}
+
+.addToCart, .seeAllItems {
+    border-top: 1px solid var(--outline);
+    padding: .5em 0;
+}
+
+.allItems {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.item {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+    max-width: 15%;
+    min-width: 15%;
+}
+
+.picture {
+    display: block;
+    padding: .5em;
+}
+
+.caption {
+    padding: 1em 1em .5em 1em;
+    display: grid;
+    row-gap: .5em;
+}
+
+.itemName {
+    justify-content: center;
+}
+
+.add {
+    padding: .5em 1em;
+}
+
+.quantityField {
+    width: 100%;
+    text-align: center;
+}
+
+.addToCartBtn {
+    justify-content: center;
+}

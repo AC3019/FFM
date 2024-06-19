@@ -72,6 +72,7 @@ body {
 }
 
 .genericInputField > input,
+.genericInputField > select,
 .genericInputField > textarea {
     border: 1px solid var(--outline) !important;
     padding: .35em;
@@ -80,6 +81,7 @@ body {
 }
 
 .genericInputField > input:focus,
+.genericInputField > select:focus,
 .genericInputField > textarea:focus {
     outline: none;
     border: 1px solid var(--secondary-color) !important;

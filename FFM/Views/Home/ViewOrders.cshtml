@@ -13,7 +13,92 @@
 </head>
 <body>
     <h2>View Orders</h2>
-    
+    <div class="orderLine1">
+        <div class="orderToReceive form">
+			<div class="header">
+				<h3>ORDERS TO BE RECEIVE</h3>
+            </div>
+			<div class="allOrder">
+                @* here display all the order to be received *@
+				<div class="form">
+					<div class="order">
+                        <b>ORDER ID</b>
+                        <div class="line"></div>
+                        <div class="orderDetails">
+                            <span>Purchase Amount: RM 123.45</span>
+                            <span>Purchase Date: @DateTime.Today.ToShortDateString()</span>
+                            <a asp-area="" asp-controller="Home" asp-action="OrderStatus" class="icon">
+                                <span>Status: <b>DELIVERING ORDER</b></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="viewOrderDetails">
+                        <a asp-area="" asp-controller="Home" asp-action="OrderDetails" class="orderDetailsBtn icon">
+                            VIEW ORDER DETAIL
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="orderNow">
+			<span>NEW ORDER?</span>
+            <a asp-area="" asp-controller="Home" asp-action="ViewOrders" class="purchaseNow icon">
+				<span>PURCHASE NOW</span>
+            </a>
+        </div>
+    </div>
+    <div class="orderReceived form">
+		<div class="header-content">
+            <div class="header">
+                <h3>ORDERS RECEIVED</h3>
+            </div>
+            <div class="seeAllItems">
+                <a asp-area="" asp-controller="Home" asp-action="CusPersonalInfo" class="seeAllItemsBtn icon">
+                    SEE ALL ITEMS
+                </a>
+            </div>
+        </div>
+        <div class="allOrder">
+            @* here display all the order to be received *@
+            <div class="form">
+                <div class="order">
+                    <b>ORDER ID</b>
+                    <div class="line"></div>
+                    <div class="orderDetails">
+                        <span>Purchase Amount: RM 123.45</span>
+                        <span>Purchase Date: @DateTime.Today.ToShortDateString()</span>
+                        <a asp-area="" asp-controller="Home" asp-action="OrderStatus" class="icon">
+                            <span>Status: <b>DELIVERING ORDER</b></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="viewOrderDetails">
+                    <a asp-area="" asp-controller="Home" asp-action="OrderDetails" class="orderDetailsBtn icon">
+                        VIEW ORDER DETAIL
+                    </a>
+                </div>
+            </div>
+            @* second order display *@
+            <div class="form">
+                <div class="order">
+                    <b>ORDER ID</b>
+                    <div class="line"></div>
+                    <div class="orderDetails">
+                        <span>Purchase Amount: RM 123.45</span>
+                        <span>Purchase Date: @DateTime.Today.ToShortDateString()</span>
+                        <a asp-area="" asp-controller="Home" asp-action="OrderStatus" class="icon">
+                            <span>Status: <b>DELIVERING ORDER</b></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="viewOrderDetails">
+                    <a asp-area="" asp-controller="Home" asp-action="OrderDetails" class="orderDetailsBtn icon">
+                        VIEW ORDER DETAIL
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
