@@ -11,7 +11,315 @@
 </head>
 <body>
     <h2>Welcome to the FFM website</h2>
-    <div class="content">
+    <div class="head">
+		<div class="sideNav form">
+            @* check how to pass to cpntroller with query string *@
+			<span>Search By Catergory</span>
+            <a asp-area="" asp-controller="Home" asp-action="" class="icon">
+                CHCIKEN
+            </a>
+            <a asp-area="" asp-controller="Home" asp-action="" class="icon">
+                FISH
+            </a>
+            <a asp-area="" asp-controller="Home" asp-action="" class="icon">
+                FRUITS
+            </a>
+            <a asp-area="" asp-controller="Home" asp-action="" class="icon">
+                VEGETABLES
+            </a>
+            <a asp-area="" asp-controller="Home" asp-action="" class="icon">
+                MEAT
+            </a>
+        </div>
+        <div class="slideshow">
+            <div class="fade slide">
+                <img src="~/res/fruits.jpg" alt="fruit" />
+            </div>
+            <div class="fade slide">
+                <img src="~/res/vegetable.jpg" alt="veg" />
+            </div>
+            <div class="fade slide">
+                <img src="~/res/chicken.jpg" alt="chicken" />
+            </div>
+            <div class="fade slide">
+                <img src="~/res/fish.jpg" alt="fish" />
+            </div>
+            <br>
+
+            <div class="dotBox">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+		<div class="extraInfo">
+			<div class="squareDiv">
+				<img src="~/res/membership.jpg" alt="membership" />
+            </div>
+			<div class="squareDiv">
+				<img src="~/res/discount.jpg" alt="discount" />
+            </div>
+        </div>
     </div>
+    <div class="content">
+        <div class="itemContainer">
+            <div class="header-content">
+                <div class="header">
+                    <h3>
+                        Freshness Guaranteed
+                        Just Arrived Today!
+                    </h3>
+                </div>
+                <div class="seeAllItems">
+                    <a asp-area="" asp-controller="Home" asp-action="" class="seeAllItemsBtn icon">
+                        SEE ALL ITEMS
+                    </a>
+                </div>
+            </div>
+            <div class="allItems">
+                @* here display all the order to be received *@
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>CASHEWNUT</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM8 / KG</label>
+                    </div>
+                    <div class="genericInputField add">
+                        <select>
+                            <option value="0.1">0.10 KG / RM 0.80</option>
+                            <option value="0.2">0.20 KG / RM 1.60</option>
+                            <option value="0.3">0.30 KG / RM 2.40</option>
+                            <option value="0.4">0.40 KG / RM 3.20</option>
+                            <option value="0.5">0.50 KG / RM 4.00</option>
+                            <option value="0.6">0.60 KG / RM 4.80</option>
+                            <option value="0.7">0.70 KG / RM 5.60</option>
+                            <option value="0.8">0.80 KG / RM 6.40</option>
+                            <option value="0.9">0.90 KG / RM 7.20</option>
+                            <option value="1">1.00 KG / RM 8.00</option>
+                        </select>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>MAGGI</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM5</label>
+                    </div>
+                    <div class="genericInputField add icon">
+                        <button class="minusBtn">
+                            <span class="material-symbols-outlined">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" value="1" class="quantityField" />
+                        <button class="addBtn">
+                            <span class="material-symbols-outlined">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+
+    <div class="content">
+        <div class="itemContainer">
+            <div class="header-content">
+                <div class="header">
+                    <h3>
+                        Freshness Guaranteed
+                        Just Arrived Today!
+                    </h3>
+                </div>
+                <div class="seeAllItems">
+                    <a asp-area="" asp-controller="Home" asp-action="" class="seeAllItemsBtn icon">
+                        SEE ALL ITEMS
+                    </a>
+                </div>
+            </div>
+            <div class="allItems">
+                @* here display all the order to be received *@
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>CASHEWNUT</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM8 / KG</label>
+                    </div>
+                    <div class="genericInputField add">
+                        <select>
+                            <option value="0.1">0.10 KG / RM 0.80</option>
+                            <option value="0.2">0.20 KG / RM 1.60</option>
+                            <option value="0.3">0.30 KG / RM 2.40</option>
+                            <option value="0.4">0.40 KG / RM 3.20</option>
+                            <option value="0.5">0.50 KG / RM 4.00</option>
+                            <option value="0.6">0.60 KG / RM 4.80</option>
+                            <option value="0.7">0.70 KG / RM 5.60</option>
+                            <option value="0.8">0.80 KG / RM 6.40</option>
+                            <option value="0.9">0.90 KG / RM 7.20</option>
+                            <option value="1">1.00 KG / RM 8.00</option>
+                        </select>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>MAGGI</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM5</label>
+                    </div>
+                    <div class="genericInputField add icon">
+                        <button class="minusBtn">
+                            <span class="material-symbols-outlined">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" value="1" class="quantityField" />
+                        <button class="addBtn">
+                            <span class="material-symbols-outlined">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="itemContainer">
+            <div class="header-content">
+                <div class="header">
+                    <h3>
+                        Promotion Get Them Now!
+                    </h3>
+                </div>
+                <div class="seeAllItems">
+                    <a asp-area="" asp-controller="Home" asp-action="" class="seeAllItemsBtn icon">
+                        SEE ALL ITEMS
+                    </a>
+                </div>
+            </div>
+            <div class="allItems">
+                @* here display all the order to be received *@
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>CASHEWNUT</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM8 / KG</label>
+                    </div>
+                    <div class="genericInputField add">
+                        <select>
+                            <option value="0.1">0.10 KG / RM 0.80</option>
+                            <option value="0.2">0.20 KG / RM 1.60</option>
+                            <option value="0.3">0.30 KG / RM 2.40</option>
+                            <option value="0.4">0.40 KG / RM 3.20</option>
+                            <option value="0.5">0.50 KG / RM 4.00</option>
+                            <option value="0.6">0.60 KG / RM 4.80</option>
+                            <option value="0.7">0.70 KG / RM 5.60</option>
+                            <option value="0.8">0.80 KG / RM 6.40</option>
+                            <option value="0.9">0.90 KG / RM 7.20</option>
+                            <option value="1">1.00 KG / RM 8.00</option>
+                        </select>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="picture">
+                        <div class="">
+                            <img src="" alt="picture of product" />
+                        </div>
+                    </a>
+                    <div class="caption">
+                        <a asp-area="" asp-controller="Home" asp-action="ProductDetails" class="icon itemName">
+                            <label>MAGGI</label>
+                        </a>
+                        <div class="line"></div>
+                        <label>RM5</label>
+                    </div>
+                    <div class="genericInputField add icon">
+                        <button class="minusBtn">
+                            <span class="material-symbols-outlined">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" value="1" class="quantityField" />
+                        <button class="addBtn">
+                            <span class="material-symbols-outlined">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <div class="addToCart">
+                        <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn icon">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="~/js/index.js" asp-append-version="true"></script>
 </body>
 </html>

@@ -1,1 +1,220 @@
-﻿
+﻿.head {
+    padding-top: .5em;
+    display: flex;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 0;*/
+    border-radius: 1em;
+    text-align: center;
+}
+
+.sideNav {
+    display: grid;
+    flex: 16%;
+}
+
+.sideNav > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.sideNav > a {
+    justify-content: center;
+    border-top: 1px solid var(--outline);
+}
+
+.sideNav > a:hover {
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/*.slideshowBox {*/
+    /*display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 70%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden; */ /* Ensure content does not overflow */
+    /*justify-content:end;*/
+    /*display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 70%;
+    position: relative;
+    width: 100%;*/ /* Set a fixed width for the container */
+    /*height: auto;*/ /* Automatically adjust height based on content */
+    /*overflow: hidden;*/ /* Ensure content does not overflow */
+/*}*/
+
+.slideshow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    flex: 68%;
+}
+
+.slideshow img {
+    width: 95%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.dotBox {
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1;
+    width: 95%;
+}
+
+.dot {
+    height: 1em;
+    width: 1em;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.extraInfo {
+    overflow: hidden;
+    display: grid; 
+    row-gap: 1em;
+    flex: 16%;
+}
+
+.squareDiv {
+    max-height: 100%; 
+    display: flex;
+}
+
+.squareDiv > img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 1em 0 0 0;
+}
+
+.itemContainer {
+    display: grid;
+    grid-template-columns: 12% auto;
+    margin-top: 1em;
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+}
+
+.header-content {
+    display: grid;
+    grid-template-rows: auto min-content;
+}
+
+.header {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--outline);
+}
+
+.seeAllItems {
+    border-right: 1px solid var(--outline);
+}
+
+.seeAllItemsBtn {
+    justify-content: center;
+}
+
+.addToCart, .seeAllItems {
+    border-top: 1px solid var(--outline);
+    padding: .5em 0;
+}
+
+.allItems {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.item {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+    max-width: 15%;
+    min-width: 15%;
+}
+
+.picture {
+    display: block;
+    padding: .5em;
+}
+
+.caption {
+    padding: 1em 1em .5em 1em;
+    display: grid;
+    row-gap: .5em;
+}
+
+.itemName {
+    justify-content: center;
+}
+
+.add {
+    padding: .5em 1em;
+}
+
+.quantityField {
+    width: 100%;
+    text-align: center;
+}
+
+.addToCartBtn {
+    justify-content: center;
+}
