@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

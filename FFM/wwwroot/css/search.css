@@ -1,0 +1,129 @@
+﻿.content {
+    padding: 1em 0;
+    display: flex;
+    gap: 1em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 0;*/
+    border-radius: 1em;
+    text-align: center;
+}
+
+.sideNav {
+    display: grid;
+    flex: 14%;
+    align-self: flex-start;
+}
+
+.sideNav > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+.sideNav > a {
+    justify-content: center;
+    border-top: 1px solid var(--outline);
+    padding: 1em 0;
+}
+
+.sideNav > a:hover {
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.product {
+    flex: 88%;
+    border-left: 1px solid black; 
+}
+
+.filter {
+    padding: .5em 0 0 1em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.allItems {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+    max-width: 15%;
+    min-width: 15%;
+}
+
+.picture {
+    display: block;
+    padding: .5em;
+}
+
+.caption {
+    padding: 1em 1em .5em 1em;
+    display: grid;
+    row-gap: .5em;
+}
+
+.itemName {
+    justify-content: center;
+    cursor: pointer;
+}
+
+.itemName > label {
+    cursor: pointer;
+}
+
+.add {
+    padding: .5em 1em;
+}
+
+.quantityField {
+    width: 100%;
+    text-align: center;
+}
+
+.addBtn, .minusBtn {
+    background-color: white;
+    cursor: pointer;
+}
+
+.addToCart {
+    border-top: 1px solid var(--outline);
+    padding: .5em 0;
+}
+
+.addToCartBtn {
+    justify-content: center;
+}
+
+.moreItem {
+    margin: 0 1em;
+    display: flex;
+    border: 1px solid var(--outline);
+    border-radius: .5em;
+}
+
+.moreItem > button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.moreItem > button:hover {
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}

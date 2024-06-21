@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iAI6UcVVuahknSxKQ27PKmK2tklFWCN/64NqBLrXrag=",
+  "Hash": "LCZgGbUN1L3V3ljDEZBMyt6nAdoDJi9hbwmfn22+OMo=",
   "Source": "FFM",
   "BasePath": "_content/FFM",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
+    },
+    {
+      "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\search.css",
+      "SourceId": "FFM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\",
+      "BasePath": "_content/FFM",
+      "RelativePath": "css/search.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\search.css"
     },
     {
       "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\site.css",

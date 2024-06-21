@@ -169,6 +169,11 @@
     justify-content: center;
 }
 
+.addBtn, .minusBtn {
+    background-color: white;
+    cursor: pointer;
+}
+
 .addToCart, .seeAllItems {
     border-top: 1px solid var(--outline);
     padding: .5em 0;
@@ -204,6 +209,11 @@
 
 .itemName {
     justify-content: center;
+    cursor: pointer;
+}
+
+.itemName > label {
+    cursor: pointer;
 }
 
 .add {

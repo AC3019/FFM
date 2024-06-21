@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>ProductDetails</h1>
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,7 +13,69 @@
 </head>
 <body>
     <div class="content">
-        
+		<div class="image">
+			<img src="~/res/fruits.jpg" alt="" />
+        </div>
+		<div class="info">
+			<div class="header">
+                <h1>Maggie</h1>
+                <a asp-area="" asp-controller="Home" asp-action="Search" class="icon">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </a>
+            </div>
+			<div class="line"></div>
+			<div class="main">
+				<div class="flex">
+                    <label><b>Category: </b></label>
+                    <label>Fish</label>
+                </div>
+                <div class="flex">
+                    <label><b>Origin: </b></label>
+					<label>China</label>
+                </div>
+                <div class="flex">
+                    <label><b>Date Harvest: </b></label>
+					<label>@DateTime.Today.ToShortDateString()</label>
+                </div>
+				<h2>RM5</h2>
+            </div>
+			<div class="add">
+                <div class="genericInputField addField">
+                    <select>
+                        <option value="0.1">0.10 KG / RM 0.80</option>
+                        <option value="0.2">0.20 KG / RM 1.60</option>
+                        <option value="0.3">0.30 KG / RM 2.40</option>
+                        <option value="0.4">0.40 KG / RM 3.20</option>
+                        <option value="0.5">0.50 KG / RM 4.00</option>
+                        <option value="0.6">0.60 KG / RM 4.80</option>
+                        <option value="0.7">0.70 KG / RM 5.60</option>
+                        <option value="0.8">0.80 KG / RM 6.40</option>
+                        <option value="0.9">0.90 KG / RM 7.20</option>
+                        <option value="1">1.00 KG / RM 8.00</option>
+                    </select>
+                </div>
+                @* <div class="genericInputField addField icon">
+                    <button class="minusBtn">
+                        <span class="material-symbols-outlined">
+                            remove
+                        </span>
+                    </button>
+                    <input type="text" value="1" class="quantityField" />
+                    <button class="addBtn">
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                    </button>
+                </div> *@
+                <div class="addToCart">
+                    <a asp-area="" asp-controller="Home" asp-action="" class="addToCartBtn btnPrimary icon">
+                        ADD TO CART
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -259,6 +259,11 @@ th, td {
 
 .itemName {
     justify-content: center;
+    cursor: pointer;
+}
+
+.itemName > label {
+    cursor: pointer;
 }
 
 .add {

@@ -1,1 +1,67 @@
-﻿
+﻿.content {
+    display: flex;
+    gap: 1em;
+}
+
+.image {
+    flex: 40%;
+    max-width: 40%;
+    overflow: hidden;
+}
+
+.image > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info {
+    flex: 60%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 0;
+}
+
+.main {
+    padding: 1em 0;
+    display: grid;
+    row-gap: 1em;
+    font-size: 1.15em;
+}
+
+.add {
+    display: flex;
+    gap: 3em;
+    width: 100%;
+}
+
+.quantityField {
+    width: 100%;
+    text-align: center;
+}
+
+.addBtn, .minusBtn {
+    background-color: white;
+    cursor: pointer;
+}
+
+.addToCart {
+    flex: 70%;
+}
+
+.addField {
+    flex: 30%;
+    width: 100%;
+}
+
+.addField > select {
+    width: 100%;
+    text-align: center;
+}
+
+.addToCartBtn {
+    justify-content: center;
+}

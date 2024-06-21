@@ -18,7 +18,7 @@ namespace FFM.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Search()
         {
             return View();
         }
@@ -74,6 +74,16 @@ namespace FFM.Controllers
         }
 
         public IActionResult ProductDetails()
+        {
+            return View();
+        }
+
+        public IActionResult HomeDM()
+        {
+            return View();
+        }
+
+        public IActionResult DMPersonalInfo()
         {
             return View();
         }
