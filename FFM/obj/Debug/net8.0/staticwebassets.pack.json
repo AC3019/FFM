@@ -17,8 +17,12 @@
       "PackagePath": "staticwebassets\\css\\cusPersonalInfo.css"
     },
     {
-      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cusUpdateAccountInfo.css",
-      "PackagePath": "staticwebassets\\css\\cusUpdateAccountInfo.css"
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\dmAccountInfo.css",
+      "PackagePath": "staticwebassets\\css\\dmAccountInfo.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\dmIndex.css",
+      "PackagePath": "staticwebassets\\css\\dmIndex.css"
     },
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\index.css",
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateAccountInfo.css",
+      "PackagePath": "staticwebassets\\css\\updateAccountInfo.css"
     },
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateDeliveryAddress.css",

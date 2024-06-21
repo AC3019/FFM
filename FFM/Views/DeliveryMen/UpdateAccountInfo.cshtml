@@ -1,7 +1,7 @@
 ﻿
 @{
-    ViewData["Title"] = "CusUpdateAccountInfo";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "UpdateAccountInfo";
+    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
 }
 
 <!doctype html>
@@ -16,14 +16,14 @@
         <h3>Update Personal Account Information</h3>
         <div class="form">
             <div class="form-header icon">
-                <a asp-area="" asp-controller="Home" asp-action="cusPersonalInfo" class="icon">
+                <a asp-area="" asp-controller="DeliveryMen" asp-action="AccountInfo" class="icon">
                     <span class="material-symbols-outlined">
                         close
                     </span>
                 </a>
                 <h1>UPDATE ACCOUNT INFO</h1>
                 @* add to make it display center *@
-				<div></div> 
+                <div></div>
             </div>
             <div class="line"></div>
             <form action="" method="post">
@@ -57,3 +57,5 @@
     </div>
 </body>
 </html>
+
+

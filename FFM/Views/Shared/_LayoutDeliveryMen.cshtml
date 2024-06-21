@@ -21,13 +21,13 @@
             <div class="header">
                 <div class="header-content">
                     <div class="">
-                        <a asp-area="" asp-controller="Home" asp-action="Index" class="icon">
+                        <a asp-area="" asp-controller="DeliveryMen" asp-action="Index" class="icon">
                             <h1>FFM</h1>
                         </a>
                     </div>
                 </div>
                 <div class="header-icon">
-                    <a asp-area="" asp-controller="Home" asp-action="DMPersonalInfo" class="icon">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="AccountInfo" class="icon">
                         <span class="material-symbols-outlined">
                             account_circle
                         </span>
@@ -37,7 +37,33 @@
         </div>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+		<div class="sideNav">
+			<div class="navForm active">
+                <a asp-area="" asp-controller="DeliveryMen" asp-action="Index" class="icon">
+                    <span class="material-symbols-outlined">
+                        local_shipping
+                    </span>
+                    Home
+                </a>
+            </div>
+			<div class="navForm">
+                <a asp-area="" asp-controller="DeliveryMen" asp-action="DeliveredPackage" class="icon">
+                    <span class="material-symbols-outlined">
+                        task
+                    </span>
+                    Delivered Package
+                </a>
+            </div>
+			<div class="navForm">
+                <a asp-area="" asp-controller="DeliveryMen" asp-action="PackageAvailable" class="icon">
+                    <span class="material-symbols-outlined">
+                        package_2
+                    </span>
+                    Package Available
+                </a>
+            </div>
+        </div>
+        <main role="main" class="pb-3 content-line">
             @RenderBody()
         </main>
     </div>

@@ -1,0 +1,11 @@
+﻿.content {
+    padding: 0 2em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: .5em;
+    text-align: center;
+    margin-top: .5em;
+}

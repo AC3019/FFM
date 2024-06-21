@@ -228,30 +228,30 @@ a[b-gy2lz19oyy] {
     width: 120%
 }
 
-    .search .searchIcon[b-gy2lz19oyy] {
-        color: var(--outline);
-        transition: .25s;
-    }
+.search .searchIcon[b-gy2lz19oyy] {
+    color: var(--outline);
+    transition: .25s;
+}
 
-    .search .searchTextBox[b-gy2lz19oyy] {
-        align-self: stretch;
-        width: 100%;
-        outline: none;
-        background-color: white;
-    }
+.search .searchTextBox[b-gy2lz19oyy] {
+    align-self: stretch;
+    width: 100%;
+    outline: none;
+    background-color: white;
+}
 
-    .search .searchBtn[b-gy2lz19oyy] {
-        padding: .25em .75em;
-    }
+.search .searchBtn[b-gy2lz19oyy] {
+    padding: .25em .75em;
+}
 
-    .search:focus-within[b-gy2lz19oyy] {
-        border-color: var(--secondary-color);
-        box-shadow: 0 2px 16px var(--primary-shadow);
-    }
+.search:focus-within[b-gy2lz19oyy] {
+    border-color: var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
 
-        .search:focus-within .searchIcon[b-gy2lz19oyy] {
-            color: var(--secondary-color);
-        }
+.search:focus-within .searchIcon[b-gy2lz19oyy] {
+    color: var(--secondary-color);
+}
 
 /*.search:focus-within .searchTextBox {
     color: var(--secondary-color);
@@ -266,7 +266,40 @@ a[b-gy2lz19oyy] {
 }
 
 .container[b-gy2lz19oyy] {
-    padding: 1em 4em;
+    padding: 1.5em 4em 1em 4em;
+    display: flex;
+    gap: 1em;
+}
+
+.sideNav[b-gy2lz19oyy] {
+    width: 20%;
+    display: grid;
+    row-gap: 1em;
+    align-self: flex-start;
+}
+
+.navForm[b-gy2lz19oyy] {
+    border: 1px solid var(--outline);
+    padding: .5em 1em;
+    border-radius: .75em;
+}
+
+.active[b-gy2lz19oyy] {
+    outline: none;
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+}
+
+.content-line[b-gy2lz19oyy] {
+    border-left: 1px solid var(--outline);
+    width: 80%;
+}
+
+.sideNav> .form:hover:not(.active)[b-gy2lz19oyy] {
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+    color: var(--secondary-color) !important;
 }
 
 .footer[b-gy2lz19oyy] {

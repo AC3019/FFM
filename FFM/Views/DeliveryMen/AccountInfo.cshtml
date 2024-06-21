@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "PersonalInfo";
+    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/dmAccountInfo.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="header">
+        <h2>Account Information</h2>
+    </div>
+    <div class="content">
+        <div class="sub-content">
+            <h4>Personal Account Information</h4>
+            <div class="line"></div>
+            <div class="display-content">
+                <label><b>Username</b></label>
+                <div class="display-content-info">
+                    <label>Username</label>
+                </div>
+                <label><b>Phone Number</b></label>
+                <div class="display-content-info">
+                    <label>Phone Number</label>
+                </div>
+                <label><b>Email Address</b></label>
+                <div class="display-content-info">
+                    <label>Email Address</label>
+                </div>
+                <label><b>Password</b></label>
+                <div class="display-content-info">
+                    <label>Password</label>
+                </div>
+            </div>
+            <div class="update">
+                <a asp-area="" asp-controller="DeliveryMen" asp-action="UpdateAccountInfo" class="icon btnPrimary btnUpdate">
+                    UPDATE
+                </a>
+            </div>
+        </div>
+        <div class="sub-content sub-content-leaveNow">
+            <h4>Leave Now</h4>
+            <div class="line"></div>
+            <div class="sub-content-leaveNow-info">
+                <div class="leaveNow">
+                    <span>Are You Done for Now?</span>
+                    <div>
+                        <input type="submit" value="LOGOUT" class="btnPrimary" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
