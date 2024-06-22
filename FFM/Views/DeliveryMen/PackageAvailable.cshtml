@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewData["Title"] = "PackageAvailable";
+    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/packageAvailable.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="header">
+        <h2>Delivery Package Available to Deliver</h2>
+    </div>
+    <div class="content">
+        <div class="deliveryPackage form">
+            <div class="order">
+                <div class="orderHeader">
+                    <span><b>Delivery ID</b></span>
+                </div>
+                <div class="orderList">
+                    <ul>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttons">
+				<div class="deliver">
+					<button class="icon btnPrimary btnDelivery">
+                        <span class="material-symbols-outlined">
+                            local_shipping
+                        </span>
+                        Deliver Delivery Package
+                    </button>
+                </div>
+                <div class="update">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnUpdate">
+                        <span class="material-symbols-outlined">
+                            info
+                        </span>
+                        View Delivery Package
+                    </a>
+                </div>
+                <div class="route">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnMap">
+                        <span class="material-symbols-outlined">
+                            map
+                        </span>
+                        View Route
+                    </a>
+                </div>
+            </div>            
+        </div>
+        <div class="deliveryPackage form">
+            <div class="order">
+                <div class="orderHeader">
+                    <span><b>Delivery ID</b></span>
+                </div>
+                <div class="orderList">
+                    <ul>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="deliver">
+                    <button class="icon btnPrimary btnDelivery">
+                        <span class="material-symbols-outlined">
+                            local_shipping
+                        </span>
+                        Deliver Delivery Package
+                    </button>
+                </div>
+                <div class="update">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnUpdate">
+                        <span class="material-symbols-outlined">
+                            info
+                        </span>
+                        View Delivery Package
+                    </a>
+                </div>
+                <div class="route">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnMap">
+                        <span class="material-symbols-outlined">
+                            map
+                        </span>
+                        View Route
+                    </a>
+                </div>
+            </div>
+        </div> 
+        @* display if no delivery package available *@
+		<div class="noPackage">
+            <b>No Delivery Package Avaliable</b>
+        </div>
+    </div>
+</body>
+</html>
+
+

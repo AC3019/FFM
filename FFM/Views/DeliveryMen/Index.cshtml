@@ -14,17 +14,93 @@
 <body>
     <div class="content">
         <h2>Current Delivering</h2>
+        @* current delivery will only has one so can direct declare specific *@
 		<div class="currentDelivering form">
-
+			<div class="order">
+                <div class="orderHeader">
+				    <span><b>Delivery ID</b></span>
+                </div>
+				<div class="orderList">
+                    <ul>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                    </ul>
+                </div>
+            </div>
+			<div class="buttons">
+				<div class="update">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnUpdate">
+                        <span class="material-symbols-outlined">
+                            update
+                        </span>
+                        Update Order Status
+                    </a>
+                </div>
+				<div class="route">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnMap">
+                        <span class="material-symbols-outlined">
+                            map
+                        </span>
+                        View Route
+                    </a>                    
+                </div>
+            </div>
         </div>
 		<div class="line"></div>
-		<div>
+		<div class="others">
 			<div class="packageAvailable">
 				<h2>OTHER DELIVERY PACKAGE AVAILABLE</h2>
             </div>
             @* take from previous css *@
-			<div>
-
+            <div class="itemContainer">
+                <div class="header-content">
+                    <div class="header">
+                        <h3>
+                            Other Package Available
+                        </h3>
+                    </div>
+                    <div class="seeAllPackage">
+                        <a asp-area="" asp-controller="DeliveryMen" asp-action="PackageAvailable" class="seeAllPackageBtn icon">
+							See All Package
+                        </a>
+                    </div>
+                </div>
+                <div class="allPackages">
+					<div class="package">
+						<div class="packageInfo">
+						    <div class="title">
+							    <span><b>Delivery ID</b></span>
+                            </div>
+						    <div class="caption">
+							    <label>Order Amount: </label>
+                                <label>4</label>
+                            </div>
+                        </div>
+						<div class="viewDetails">
+                            <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="viewDetailsBtn icon">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="package">
+						<div class="packageInfo">
+						    <div class="title">
+							    <span><b>Delivery ID</b></span>
+                            </div>
+						    <div class="caption">
+								<label>Order Amount: </label>
+                                <label>3</label>
+                            </div>
+                        </div>
+						<div class="viewDetails">
+                            <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="viewDetailsBtn icon">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

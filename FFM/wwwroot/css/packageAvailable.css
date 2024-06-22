@@ -1,0 +1,68 @@
+﻿.header {
+    padding: 0 2em;
+}
+
+.content {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    /*text-align: center;*/
+    margin-top: .5em;
+}
+
+.deliveryPackage {
+    display: flex;
+    margin-bottom: 1em;
+    /*justify-content: space-between;*/
+}
+
+.order {
+    padding: 1em 2em .5em 2em;
+    width: 40%;
+}
+
+.orderHeader > span {
+    font-size: 1.35em;
+}
+
+.orderList {
+    padding: .5em 1.5em;
+}
+
+.orderList > ul {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
+.buttons {
+    display: flex;
+    width: 60%;
+}
+
+.deliver, .update, .route {
+    border-left: 1px solid var(--outline);
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btnDelivery, .btnUpdate, .btnMap {
+    height: 100%;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+}
+
+.noPackage {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2em;
+}

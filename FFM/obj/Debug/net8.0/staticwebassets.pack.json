@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\orderStatus.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\packageAvailable.css",
+      "PackagePath": "staticwebassets\\css\\packageAvailable.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\productDetails.css",
       "PackagePath": "staticwebassets\\css\\productDetails.css"
     },

@@ -23,6 +23,16 @@ namespace FFM.Controllers
             return View();
         }
 
+        public IActionResult PackageAvailable()
+        {
+            return View();
+        }
+
+        public IActionResult DeliveredPackage()
+        {
+            return View();
+        }
+
         // GET: DeliveryMen/Details/5
         public ActionResult Details(int id)
         {

@@ -30,8 +30,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlNZW5cQWNjb3VudEluZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User-PC/Documents/FFM/FFM/Views/DeliveryMen/DeliveredPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlNZW5cRGVsaXZlcmVkUGFja2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User-PC/Documents/FFM/FFM/Views/DeliveryMen/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlNZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User-PC/Documents/FFM/FFM/Views/DeliveryMen/PackageAvailable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlNZW5cUGFja2FnZUF2YWlsYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User-PC/Documents/FFM/FFM/Views/DeliveryMen/UpdateAccountInfo.cshtml]

@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewData["Title"] = "DeliveredPackage";
+    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/deliveredPackage.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content">
+        <h2>Current Delivering</h2>
+        @* current delivery will only has one so can direct declare specific *@
+        <div class="currentDelivering form">
+            <div class="order">
+                <div class="orderHeader">
+                    <span><b>Delivery ID</b></span>
+                </div>
+                <div class="orderList">
+                    <ul>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                        <li>Order ID</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="update">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnUpdate">
+                        <span class="material-symbols-outlined">
+                            update
+                        </span>
+                        Update Order Status
+                    </a>
+                </div>
+                <div class="route">
+                    <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnMap">
+                        <span class="material-symbols-outlined">
+                            map
+                        </span>
+                        View Route
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="deliveredPackageContainer">
+            <h2>Delivered Delivery Packages</h2>
+            <div class="deliveredPackage form">
+                <div class="order">
+                    <div class="orderHeader">
+                        <span><b>Delivery ID</b></span>
+                    </div>
+                    <div class="orderList">
+                        <ul>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="deliveredView">
+                    <div class="view">
+                        <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnMap">
+                            <span class="material-symbols-outlined">
+                                info
+                            </span>
+                            View Delivery Package
+                        </a>
+                    </div>
+                </div>
+            </div> 
+            <div class="deliveredPackage form">
+                <div class="order">
+                    <div class="orderHeader">
+                        <span><b>Delivery ID</b></span>
+                    </div>
+                    <div class="orderList">
+                        <ul>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="deliveredView">
+                    <div class="view">
+                        <a asp-area="" asp-controller="DeliveryMen" asp-action="" class="icon btnPrimary btnMap">
+                            <span class="material-symbols-outlined">
+                                info
+                            </span>
+                            View Delivery Package
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>

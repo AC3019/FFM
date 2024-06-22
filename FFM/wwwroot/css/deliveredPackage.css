@@ -1,0 +1,71 @@
+﻿.content {
+    padding: 0 2em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    /*text-align: center;*/
+    margin-top: .5em;
+}
+
+.currentDelivering {
+    display: flex;
+    margin-bottom: 1em;
+    /*justify-content: space-between;*/
+}
+
+.order {
+    padding: 1em 2em .5em 2em;
+    width: 60%;
+}
+
+.orderHeader > span {
+    font-size: 1.35em;
+}
+
+.orderList {
+    padding: .5em 1.5em;
+}
+
+.orderList > ul {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
+.buttons {
+    display: flex;
+    width: 40%;
+}
+
+.update, .route, .view {
+    border-left: 1px solid var(--outline);
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btnUpdate, .btnMap {
+    height: 100%;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+}
+
+.deliveredPackageContainer > h2 {
+    padding: .5em 0;
+}
+
+.deliveredView {
+    display: flex;
+    width: 18%;
+}
+
+.deliveredPackage {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
