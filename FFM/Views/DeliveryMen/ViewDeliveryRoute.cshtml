@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "ViewDeliveryRoute";
+    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/viewDeliveryRoute.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="back">
+        @* this can be replace by go back to previous page, dk how to do yet *@
+        <a asp-area="" asp-controller="DeliveryMen" asp-action="Index" class="icon">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+            Back
+        </a>
+    </div>
+    <div class="header">
+        <h2>View Route - <label>Delivery ID</label></h2>
+    </div>
+    <div class="content">
+
+    </div>
+</body>
+</html>
+

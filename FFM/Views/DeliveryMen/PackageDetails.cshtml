@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewData["Title"] = "PackageDetails";
+    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/packageDetails.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="back">
+        @* this can be replace by go back to previous page, dk how to do yet *@
+        <a asp-area="" asp-controller="DeliveryMen" asp-action="Index" class="icon">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+            Back
+        </a>
+    </div>
+    <div class="header">
+        <h2>Delivery Package Details - <label>Delivery ID</label></h2>
+    </div>
+    <div class="content">
+		<div class="caption">
+			<div>
+                <label>Total Order to Deliver: </label> <label>4</label>
+            </div>
+			<div>
+                <label>Status: </label> <label>Delivering</label>
+            </div>
+            <span>Respective Order Details</span>            
+        </div>
+		<div class="orders">
+            <div class="form order">
+                <div>
+                    <span>ORDER ID</span>
+                </div>
+                <div class="line"></div>
+                <div class="info">
+                    <div>
+                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                    </div>
+                    <div>
+                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                    </div>
+                </div>
+            </div>
+			<div class="form order">
+				<div>
+					<span>ORDER ID</span>
+                </div>
+				<div class="line"></div>
+				<div class="info">
+					<div>
+                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                    </div>
+                    <div>
+                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form order">
+                <div>
+                    <span>ORDER ID</span>
+                </div>
+                <div class="line"></div>
+                <div class="info">
+                    <div>
+                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                    </div>
+                    <div>
+                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form order">
+                <div>
+                    <span>ORDER ID</span>
+                </div>
+                <div class="line"></div>
+                <div class="info">
+                    <div>
+                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                    </div>
+                    <div>
+                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinang</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form order">
+                <div>
+                    <span>ORDER ID</span>
+                </div>
+                <div class="line"></div>
+                <div class="info">
+                    <div>
+                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                    </div>
+                    <div>
+                        <label><b>Delivery Address: </b></label><label>77, Lorong Lembah Permai 3, 11200 Tanjung Bungah, Pulau Pinang</label>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
+

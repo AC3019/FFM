@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\cusPersonalInfo.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\deliveredPackage.css",
+      "PackagePath": "staticwebassets\\css\\deliveredPackage.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\dmAccountInfo.css",
       "PackagePath": "staticwebassets\\css\\dmAccountInfo.css"
     },
@@ -45,6 +49,10 @@
       "PackagePath": "staticwebassets\\css\\packageAvailable.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\packageDetails.css",
+      "PackagePath": "staticwebassets\\css\\packageDetails.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\productDetails.css",
       "PackagePath": "staticwebassets\\css\\productDetails.css"
     },
@@ -67,6 +75,10 @@
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateDeliveryAddress.css",
       "PackagePath": "staticwebassets\\css\\updateDeliveryAddress.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateOrderStatus.css",
+      "PackagePath": "staticwebassets\\css\\updateOrderStatus.css"
     },
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewOrders.css",

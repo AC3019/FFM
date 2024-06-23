@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FKHccCbKkmUWkJ/kBFlQIr8aJaFdG4Z1cKmu3rhgQmo=",
+  "Hash": "mu/Yz23u/L+xFvF2v7hzVjcWRoReH49t3rTyfweLFsc=",
   "Source": "FFM",
   "BasePath": "_content/FFM",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cusPersonalInfo.css"
+    },
+    {
+      "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\deliveredPackage.css",
+      "SourceId": "FFM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\",
+      "BasePath": "_content/FFM",
+      "RelativePath": "css/deliveredPackage.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\deliveredPackage.css"
     },
     {
       "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\dmAccountInfo.css",
@@ -245,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\css\\packageAvailable.css"
     },
     {
+      "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\packageDetails.css",
+      "SourceId": "FFM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\",
+      "BasePath": "_content/FFM",
+      "RelativePath": "css/packageDetails.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\packageDetails.css"
+    },
+    {
       "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\productDetails.css",
       "SourceId": "FFM",
       "SourceType": "Discovered",
@@ -357,6 +395,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\updateDeliveryAddress.css"
+    },
+    {
+      "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateOrderStatus.css",
+      "SourceId": "FFM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\",
+      "BasePath": "_content/FFM",
+      "RelativePath": "css/updateOrderStatus.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\updateOrderStatus.css"
     },
     {
       "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewOrders.css",

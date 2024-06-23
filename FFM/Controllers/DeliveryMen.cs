@@ -33,6 +33,21 @@ namespace FFM.Controllers
             return View();
         }
 
+        public IActionResult PackageDetails()
+        {
+            return View();
+        }
+
+        public IActionResult UpdateOrderStatus()
+        {
+            return View();
+        }
+
+        public IActionResult ViewDeliveryRoute()
+        {
+            return View();
+        }
+
         // GET: DeliveryMen/Details/5
         public ActionResult Details(int id)
         {
