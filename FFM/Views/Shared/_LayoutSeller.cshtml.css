@@ -1,0 +1,190 @@
+﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0077cc;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.welcome {
+    padding: 1em 2.5em 0em 4em;
+    display: flex;
+    justify-content: end;
+    font-size: 1.5em;
+}
+
+.header {
+    padding: 1em 4em 1em 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F0F0F0; /*#ecf5e0;*/
+}
+
+.header-title {
+    all: unset;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    width: 45%;
+    align-items: center;
+    padding-top: .5em;
+}
+
+.search {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    border: 1px solid var(--outline);
+    background-color: white;
+    padding: .5em;
+    border-radius: .5em;
+    transition: .25s;
+    width: 120%
+}
+
+.search .searchIcon {
+    color: var(--outline);
+    transition: .25s;
+}
+
+.search .searchTextBox {
+    align-self: stretch;
+    width: 100%;
+    outline: none;
+    background-color: white;
+}
+
+.search .searchBtn {
+    padding: .25em .75em;
+}
+
+.search:focus-within {
+    border-color: var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
+
+.search:focus-within .searchIcon {
+    color: var(--secondary-color);
+}
+
+/*.search:focus-within .searchTextBox {
+    color: var(--secondary-color);
+}*/
+
+.header-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: end;
+    font-size: 1.25em;
+}
+
+.container {
+    padding: 1.5em 4em 1em 4em;
+    display: flex;
+    gap: 1em;
+}
+
+.sideNav {
+    width: 20%;
+    display: grid;
+    row-gap: 1em;
+    align-self: flex-start;
+}
+
+.navForm {
+    border: 1px solid var(--outline);
+    padding: .5em 1em;
+    border-radius: .75em;
+}
+
+.active {
+    outline: none;
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+}
+
+.content-line {
+    border-left: 1px solid var(--outline);
+    width: 80%;
+    min-height: 80%;
+}
+
+.sideNav > .form:hover:not(.active) {
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+    color: var(--secondary-color) !important;
+}
+
+.footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    /*min-height: 10em;*/
+    display: flex;
+    flex-direction: column;
+    padding: 1.25em 0 .5em 0;
+    line-height: normal;
+    background-color: #F0F0F0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-descr > span, .footer-info > span, .footer-contact > span, .footer-social > span, .footer-comment > span {
+    display: block;
+    padding: .15em 0;
+}
+
+.footer-spacing {
+    margin: .25em 0;
+}
+
+.footer-form {
+    padding: .15em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitBtn {
+    display: flex;
+    justify-content: end;
+    margin-top: .15em;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0;
+    padding: 1.15em 0 .5em 0;
+}

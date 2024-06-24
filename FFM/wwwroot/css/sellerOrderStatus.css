@@ -1,0 +1,158 @@
+﻿.content {
+    padding: 0 2em;
+}
+
+.currentDeliveringPackages {
+    padding-top: .5em;
+    display: grid;
+}
+
+.package {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    /*text-align: center;*/
+    margin-top: .5em;
+}
+
+.order {
+    padding: 1em 2em .5em 2em;
+    width: 60%;
+}
+
+.orderHeader > span {
+    font-size: 1.35em;
+}
+
+.orderList {
+    padding: .5em 1.5em;
+}
+
+.orderList > ul {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
+.buttons {
+    display: flex;
+    width: 18%;
+}
+
+.updateContainer {
+    border-left: 1px solid var(--outline);
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btnUpdate {
+    height: 100%;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+}
+
+.deliveryPackageNotAssigned {
+    padding: 1em 0;
+}
+
+.orders {
+    padding: 1em 0;
+    display: flex;
+    /*justify-content: center;*/
+    column-gap: 4.18em;
+    row-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.orderForm {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    text-align: center;
+    max-width: 20%;
+}
+
+.title {
+    padding: 1em 2em 0 2em;
+}
+
+.info {
+    /*padding: .5em .5em 0 .5em;*/
+    padding: .5em 2em;
+    display: flex;
+    /*flex-direction: column;*/
+    row-gap: .5em;
+    flex-wrap: wrap;
+}
+
+.status {
+    padding: .5em 0 1em 0;
+}
+
+.status > select {
+    width: 65%;
+    text-align: center;
+}
+
+.update {
+    border-top: 1px solid var(--outline);
+    padding: .5em 0;
+}
+
+.btnUpdateStatus {
+    width: 100%;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    border: 1px solid var(--outline);
+    background-color: white;
+    padding: .5em;
+    border-radius: .5em;
+    transition: .25s;
+    width: 50%
+}
+
+.search .searchIcon {
+    color: var(--outline);
+    transition: .25s;
+}
+
+.search .searchTextBox {
+    align-self: stretch;
+    width: 100%;
+    outline: none;
+    background-color: white;
+}
+
+.search .searchBtn {
+    padding: .25em .75em;
+}
+
+.search:focus-within {
+    border-color: var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
+
+.search:focus-within .searchIcon {
+    color: var(--secondary-color);
+}
+
+.orderTitle, .deliveryPackageTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3em;
+}

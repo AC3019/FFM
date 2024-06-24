@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/sellerIndex.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content">
+        <h2>Order Received</h2>
+        @* current delivery will only has one so can direct declare specific *@
+		<div class="itemContainer">
+            <div class="header-content">
+                <div class="header">
+                    <h3>
+                        Order Received
+                    </h3>
+                </div>
+                <div class="buttons">
+                    <a asp-area="" asp-controller="Seller" asp-action="NewDeliveryPackage" class="createDPBtn icon">
+                        Create Delivery Package
+                    </a>
+                </div>
+            </div>
+			<div class="allOrders">
+                <div class="order">
+                    <div class="orderInfo">
+                        <div>
+                            <span><b>Order ID</b></span>
+                        </div>
+                        <div>
+                            <label>Order Amount: </label>
+                            <label>4</label>
+                        </div>
+                        <div class="orderDateInfo">
+                            <label>Order Placed: </label>
+                            <label>@DateTime.Today.ToString()</label>
+                        </div>
+                    </div>
+                    <div class="viewDetails">
+                        <a asp-area="" asp-controller="Seller" asp-action="" class="viewDetailsBtn icon">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<br />
+        <div class="line"></div>
+        <div class="deliveryPackageNotAssigned">
+            <h2>Delivery Packages Not Assigned</h2>
+            @* take from previous css *@
+            <div class="itemContainer">
+                <div class="header-content">
+                    <div class="header">
+                        <h3>
+                            Delivery Package Not Assigned
+                        </h3>
+                    </div>
+                    <div class="buttons">
+                        <a asp-area="" asp-controller="Seller" asp-action="PackageDetails" class="viewDPBtn icon">
+                            View Delivery Package
+                        </a>
+                    </div>
+                </div>
+                <div class="allPackages">
+                    <div class="package">
+                        <div class="packageInfo">
+                            <div class="title">
+                                <span><b>Delivery ID</b></span>
+                            </div>
+                            <div class="caption">
+                                <label>Order Amount: </label>
+                                <label>4</label>
+                            </div>
+                        </div>
+                        <div class="viewDetails">
+                            <a asp-area="" asp-controller="Seller" asp-action="ViewPackageDetails" class="viewDetailsBtn icon">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="package">
+                        <div class="packageInfo">
+                            <div class="title">
+                                <span><b>Delivery ID</b></span>
+                            </div>
+                            <div class="caption">
+                                <label>Order Amount: </label>
+                                <label>3</label>
+                            </div>
+                        </div>
+                        <div class="viewDetails">
+                            <a asp-area="" asp-controller="Seller" asp-action="ViewPackageDetails" class="viewDetailsBtn icon">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

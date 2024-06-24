@@ -1,0 +1,111 @@
+﻿.content {
+    padding: 0 2em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    /*text-align: center;*/
+    margin-top: .5em;
+}
+
+.currentDelivering {
+    display: flex;
+    margin-bottom: 1em;
+    /*justify-content: space-between;*/
+}
+
+.itemContainer {
+    display: grid;
+    grid-template-columns: 15% auto;
+    margin-top: 1em;
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+}
+
+.header-content {
+    display: grid;
+    grid-template-rows: auto min-content;
+}
+
+.header {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--outline);
+}
+
+.buttons {
+    border-right: 1px solid var(--outline);
+}
+
+.viewDetails, .buttons {
+    border-top: 1px solid var(--outline);
+    padding: .5em 0;
+}
+
+.allOrders {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.order {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+    max-width: 22%;
+    min-width: 22%;
+}
+
+.orderInfo {
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    gap: .25em
+}
+
+.orderDateInfo {
+    display: grid;
+    row-gap: .15em;
+}
+
+.viewDetailsBtn, .createDPBtn, .viewDPBtn {
+    justify-content: center;
+}
+
+.deliveryPackageNotAssigned {
+    padding: 1em 0;
+}
+
+.allPackages {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.package {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: 1em;
+    text-align: center;
+    max-width: 17%;
+    min-width: 17%;
+}
+
+.packageInfo {
+    padding: .5em;
+}
+
+.caption {
+    padding: 1em 0 .5em 0;
+}

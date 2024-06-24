@@ -1,7 +1,7 @@
 ﻿
 @{
-    ViewData["Title"] = "PersonalInfo";
-    Layout = "~/Views/Shared/_LayoutDeliveryMen.cshtml";
+    ViewData["Title"] = "AccountInfo";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
 }
 
 <!doctype html>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="~/css/accountInfo.css" asp-append-version="true" />
 </head>
 <body>
-	<div class="header">
+    <div class="header">
         <h2>Account Information</h2>
     </div>
     <div class="content">
@@ -24,10 +24,6 @@
                 <div class="display-content-info">
                     <label>Username</label>
                 </div>
-                <label><b>Phone Number</b></label>
-                <div class="display-content-info">
-                    <label>Phone Number</label>
-                </div>
                 <label><b>Email Address</b></label>
                 <div class="display-content-info">
                     <label>Email Address</label>
@@ -38,7 +34,7 @@
                 </div>
             </div>
             <div class="update">
-                <a asp-area="" asp-controller="DeliveryMen" asp-action="UpdateAccountInfo" class="icon btnPrimary btnUpdate">
+                <a asp-area="" asp-controller="Seller" asp-action="UpdateAccountInfo" class="icon btnPrimary btnUpdate">
                     UPDATE
                 </a>
             </div>

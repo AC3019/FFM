@@ -1,0 +1,225 @@
+﻿
+@{
+    ViewData["Title"] = "OrderStatus";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/sellerOrderStatus.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content">
+		<div class="deliveryPackageTitle">
+            <h2>Delivery Package Current Delivering</h2>
+            <div class="icon search">
+                <span class="material-symbols-outlined searchIcon">
+                    search
+                </span>
+                <input type="text" name="item" value="" class="searchTextBox" placeholder="Delivery ID" />
+                <div>
+                    <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+                </div>
+            </div>
+        </div>
+        <div class="currentDeliveringPackages">
+            <div class="package form">
+                <div class="order">
+                    <div class="orderHeader">
+                        <span><b>Delivery ID</b></span>
+                    </div>
+                    <div class="orderList">
+                        <ul>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="updateContainer">
+                        <a asp-area="" asp-controller="Seller" asp-action="UpdateOrderStatus" class="icon btnPrimary btnUpdate">
+                            <span class="material-symbols-outlined">
+                                update
+                            </span>
+                            Update Order Status
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="package form">
+                <div class="order">
+                    <div class="orderHeader">
+                        <span><b>Delivery ID</b></span>
+                    </div>
+                    <div class="orderList">
+                        <ul>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                            <li>Order ID</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="updateContainer">
+                        <a asp-area="" asp-controller="Seller" asp-action="UpdateOrderStatus" class="icon btnPrimary btnUpdate">
+                            <span class="material-symbols-outlined">
+                                update
+                            </span>
+                            Update Order Status
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="deliveryPackageNotAssigned">
+			<div class="orderTitle">
+                <h2>Order Not In Delivery Package</h2>
+                <div class="icon search">
+                    <span class="material-symbols-outlined searchIcon">
+                        search
+                    </span>
+                    <input type="text" name="item" value="" class="searchTextBox" placeholder="Order ID" />
+                    <div>
+                        <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+                    </div>
+                </div>
+            </div>
+            <div class="orders">
+                <div class="orderForm">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                    </div>
+                    <div class="genericInputField status">
+                        <select>
+                            <option value="value">Out of Delivery</option>
+                            <option value="value">Delivered</option>
+                        </select>
+                    </div>
+                    <div class="update">
+                        <button class="icon btnUpdateStatus">
+                            UPDATE STATUS
+                        </button>
+                    </div>
+                </div>
+                <div class="orderForm">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                    </div>
+                    <div class="genericInputField status">
+                        <select>
+                            <option value="value">Out of Delivery</option>
+                            <option value="value">Delivered</option>
+                        </select>
+                    </div>
+                    <div class="update">
+                        <button class="icon btnUpdateStatus">
+                            UPDATE STATUS
+                        </button>
+                    </div>
+                </div>
+                <div class="orderForm">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                    </div>
+                    <div class="genericInputField status">
+                        <select>
+                            <option value="value">Out of Delivery</option>
+                            <option value="value">Delivered</option>
+                        </select>
+                    </div>
+                    <div class="update">
+                        <button class="icon btnUpdateStatus">
+                            UPDATE STATUS
+                        </button>
+                    </div>
+                </div>
+                <div class="orderForm">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                    </div>
+                    <div class="genericInputField status">
+                        <select>
+                            <option value="value">Out of Delivery</option>
+                            <option value="value">Delivered</option>
+                        </select>
+                    </div>
+                    <div class="update">
+                        <button class="icon btnUpdateStatus">
+                            UPDATE STATUS
+                        </button>
+                    </div>
+                </div>
+                <div class="orderForm">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                    </div>
+                    <div class="genericInputField status">
+                        <select>
+                            <option value="value">Out of Delivery</option>
+                            <option value="value">Delivered</option>
+                        </select>
+                    </div>
+                    <div class="update">
+                        <button class="icon btnUpdateStatus">
+                            UPDATE STATUS
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

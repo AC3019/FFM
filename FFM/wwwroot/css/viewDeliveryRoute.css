@@ -4,9 +4,50 @@
 
 .content {
     padding-left: 2em;
+    display: flex;
+    gap: 4em;
 }
 
 .header {
     text-align: center;
     padding: 1em 0;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    padding: 1em 2em;
+    border-radius: .5em;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.orders {
+    flex: 13%;
+}
+
+.orderHeader > span {
+    font-size: 1.35em;
+}
+
+.orderList {
+    padding: .5em 0 0em 1.5em;
+}
+
+.orderList > ul {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
+.map {
+    flex: 87%;
+    width: 100%;
+}
+
+.route {
+    padding: 1.25em 0 .5em 3em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    font-size: 1.2em;
 }

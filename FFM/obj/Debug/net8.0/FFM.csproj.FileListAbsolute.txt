@@ -225,3 +225,4 @@ C:\Users\User-PC\Documents\FFM\FFM\obj\Debug\net8.0\FFM.pdb
 C:\Users\User-PC\Documents\FFM\FFM\obj\Debug\net8.0\FFM.genruntimeconfig.cache
 C:\Users\User-PC\Documents\FFM\FFM\obj\Debug\net8.0\ref\FFM.dll
 C:\Users\User-PC\Documents\FFM\FFM\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDeliveryMen.cshtml.rz.scp.css
+C:\Users\User-PC\Documents\FFM\FFM\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutSeller.cshtml.rz.scp.css
