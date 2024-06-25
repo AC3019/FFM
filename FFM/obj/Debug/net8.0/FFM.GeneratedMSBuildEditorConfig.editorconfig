@@ -114,8 +114,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXEFjY291bnRJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User-PC/Documents/FFM/FFM/Views/Seller/DeliveryPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXERlbGl2ZXJ5UGFja2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User-PC/Documents/FFM/FFM/Views/Seller/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User-PC/Documents/FFM/FFM/Views/Seller/NewDeliveryPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXE5ld0RlbGl2ZXJ5UGFja2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User-PC/Documents/FFM/FFM/Views/Seller/OrderStatus.cshtml]
@@ -128,6 +136,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/User-PC/Documents/FFM/FFM/Views/Seller/UpdateOrderStatus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXFVwZGF0ZU9yZGVyU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User-PC/Documents/FFM/FFM/Views/Seller/ViewDeliveryPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXFZpZXdEZWxpdmVyeVBhY2thZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User-PC/Documents/FFM/FFM/Views/Shared/Error.cshtml]

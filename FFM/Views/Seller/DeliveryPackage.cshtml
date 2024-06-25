@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewData["Title"] = "DeliveryPackage";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/deliveryPackage.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="headerPD">
+        <div class="newDPBtnContainer">
+            <a asp-area="" asp-controller="Seller" asp-action="NewDeliveryPackage" class="btnPrimary newDPBtn icon">
+                New Delivery Package
+            </a>
+        </div>
+        <div class="icon search">
+            <span class="material-symbols-outlined searchIcon">
+                search
+            </span>
+            <input type="text" name="item" value="" class="searchTextBox" placeholder="Delivery ID" />
+            <div>
+                <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+            </div>
+        </div>
+    </div>
+    <div class="content">
+		<h2>List of Delivery Package</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Assgined To</th>
+                    <th>Status</th>
+                    <th>Order Amount</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>deliveryman@gmail.com</td>
+                    <td>Delivering</td>
+                    <td>10</td>
+					<td>
+						<div class="actions">
+                            <a asp-area="" asp-controller="Seller" asp-action="ViewDeliveryPackage" class="btnPrimary viewBtn icon">
+                                VIEW
+                            </a>
+                            <a class="btnPrimary updateStatusBtn icon" onclick="openPopUp()">
+                                UPDATE STATUS
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpContainer">
+        <div class="popUp" id="popUp">
+            <h2>Update Status for Delivery ID</h2>
+			<div class="popUpInfo">
+				<div class="id">
+                    <label>Delivery ID: </label>
+                    <label>1</label>
+                </div>
+				<div class="amount">
+					<label>Order Amount: RM </label>
+					<label>123.45</label>
+                </div>
+            </div>
+			<div class="popUpStatus icon">
+				<label>Status: </label>
+			    <div class="genericInputField statusInput">
+                    <select>
+                        <option value="value">Pending</option>
+                        <option value="value">Delivering</option>
+                        <option value="value">Delivered</option>
+                    </select>
+                </div>
+            </div>
+            <div class="popUpBtn">
+                <input type="submit" value="UPDATE" class="btnPrimary btnUpdatePopUp" onclick="" />
+                <input type="submit" value="CANCEL" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <script src="~/js/popUp.js" asp-append-version="true"></script>
+</body>
+</html>
+

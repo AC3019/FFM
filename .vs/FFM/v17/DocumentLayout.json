@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\User-PC\\Documents\\FFM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\newdeliverypackage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\newdeliverypackage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\controllers\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\controllers\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\viewdeliverypackage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\viewdeliverypackage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\viewdeliverypackage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\viewdeliverypackage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\deliverypackage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\deliverypackage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\updateorderstatus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\updateorderstatus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\viewdeliveryroute.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\viewdeliveryroute.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\updateorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\updateorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\sellerindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\sellerindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\deliverymen\\viewdeliveryroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\deliverymen\\viewdeliveryroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\deliverypackage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\deliverypackage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\sellerorderstatus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\sellerorderstatus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -11,24 +59,20 @@
       "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\orderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\shared\\_layoutseller.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\shared\\_layoutseller.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\deliverymen\\updateorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\deliverymen\\updateorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\shared\\_layoutseller.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\shared\\_layoutseller.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\updateorderstatus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\updateorderstatus.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\sellerindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\sellerindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\updateorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\updateorderstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\deliveredpackage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -47,32 +91,8 @@
       "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\deliverymen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\shared\\_layoutseller.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\shared\\_layoutseller.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\controllers\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\controllers\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\controllers\\deliverymen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\controllers\\deliverymen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\wwwroot\\css\\viewdeliveryroute.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\wwwroot\\css\\viewdeliveryroute.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\deliverymen\\viewdeliveryroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|solutionrelative:ffm\\views\\deliverymen\\viewdeliveryroute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83DF78A8-1895-4049-AF1F-0E7A09934F3A}|FFM\\FFM.csproj|c:\\users\\user-pc\\documents\\ffm\\ffm\\views\\deliverymen\\packagedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -142,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,7 +170,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "NewDeliveryPackage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\NewDeliveryPackage.cshtml",
+              "RelativeDocumentMoniker": "FFM\\Views\\Seller\\NewDeliveryPackage.cshtml",
+              "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\NewDeliveryPackage.cshtml",
+              "RelativeToolTip": "FFM\\Views\\Seller\\NewDeliveryPackage.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAApwBsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T08:27:57.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "viewDeliveryPackage.css",
+              "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewDeliveryPackage.css",
+              "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\viewDeliveryPackage.css",
+              "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewDeliveryPackage.css",
+              "RelativeToolTip": "FFM\\wwwroot\\css\\viewDeliveryPackage.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T08:04:30.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewDeliveryPackage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\ViewDeliveryPackage.cshtml",
+              "RelativeDocumentMoniker": "FFM\\Views\\Seller\\ViewDeliveryPackage.cshtml",
+              "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\ViewDeliveryPackage.cshtml",
+              "RelativeToolTip": "FFM\\Views\\Seller\\ViewDeliveryPackage.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvwYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T07:37:46.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "deliveryPackage.css",
+              "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\deliveryPackage.css",
+              "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\deliveryPackage.css",
+              "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\deliveryPackage.css",
+              "RelativeToolTip": "FFM\\wwwroot\\css\\deliveryPackage.css",
+              "ViewState": "AQIAACkAAAAAAAAAAAAswFwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T06:26:26.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeliveryPackage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\DeliveryPackage.cshtml",
+              "RelativeDocumentMoniker": "FFM\\Views\\Seller\\DeliveryPackage.cshtml",
+              "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\DeliveryPackage.cshtml",
+              "RelativeToolTip": "FFM\\Views\\Seller\\DeliveryPackage.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:23:24.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "dmIndex.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\dmIndex.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\dmIndex.css",
@@ -158,77 +243,76 @@
               "RelativeToolTip": "FFM\\wwwroot\\css\\dmIndex.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-24T11:00:22.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T11:00:22.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "sellerOrderStatus.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\sellerOrderStatus.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\sellerOrderStatus.css",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\sellerOrderStatus.css",
               "RelativeToolTip": "FFM\\wwwroot\\css\\sellerOrderStatus.css",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAUAAAATAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-24T10:59:14.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "OrderStatus.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\OrderStatus.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Seller\\OrderStatus.cshtml",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\OrderStatus.cshtml",
               "RelativeToolTip": "FFM\\Views\\Seller\\OrderStatus.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvxsAAAAtAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-24T10:42:55.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UpdateOrderStatus.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\UpdateOrderStatus.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Seller\\UpdateOrderStatus.cshtml",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\UpdateOrderStatus.cshtml",
               "RelativeToolTip": "FFM\\Views\\Seller\\UpdateOrderStatus.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvxAAAABGAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAADwv5kAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-24T10:39:07.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "sellerIndex.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\sellerIndex.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\sellerIndex.css",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\sellerIndex.css",
               "RelativeToolTip": "FFM\\wwwroot\\css\\sellerIndex.css",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAHAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-24T09:40:03.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\Index.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Seller\\Index.cshtml",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Seller\\Index.cshtml",
               "RelativeToolTip": "FFM\\Views\\Seller\\Index.cshtml",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAG0AAAAHAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwv0IAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-24T07:00:57.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "_LayoutSeller.cshtml.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Shared\\_LayoutSeller.cshtml.css",
               "RelativeDocumentMoniker": "FFM\\Views\\Shared\\_LayoutSeller.cshtml.css",
@@ -236,77 +320,76 @@
               "RelativeToolTip": "FFM\\Views\\Shared\\_LayoutSeller.cshtml.css",
               "ViewState": "AQIAAJQAAAAAAAAAAAAAAL0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-24T06:59:17.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T06:59:17.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "_LayoutSeller.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Shared\\_LayoutSeller.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Shared\\_LayoutSeller.cshtml",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Shared\\_LayoutSeller.cshtml",
               "RelativeToolTip": "FFM\\Views\\Shared\\_LayoutSeller.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAADwv0EAAABOAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvzEAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-24T06:58:13.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "Seller.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Controllers\\Seller.cs",
               "RelativeDocumentMoniker": "FFM\\Controllers\\Seller.cs",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Controllers\\Seller.cs",
               "RelativeToolTip": "FFM\\Controllers\\Seller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T06:56:56.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "viewDeliveryRoute.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewDeliveryRoute.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\viewDeliveryRoute.css",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewDeliveryRoute.css",
               "RelativeToolTip": "FFM\\wwwroot\\css\\viewDeliveryRoute.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-23T09:23:08.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "ViewDeliveryRoute.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\ViewDeliveryRoute.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\DeliveryMen\\ViewDeliveryRoute.cshtml",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\ViewDeliveryRoute.cshtml",
               "RelativeToolTip": "FFM\\Views\\DeliveryMen\\ViewDeliveryRoute.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwD0AAAAOAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-23T09:07:59.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "updateOrderStatus.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateOrderStatus.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\updateOrderStatus.css",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateOrderStatus.css",
               "RelativeToolTip": "FFM\\wwwroot\\css\\updateOrderStatus.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-23T08:31:52.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "UpdateOrderStatus.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\UpdateOrderStatus.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\DeliveryMen\\UpdateOrderStatus.cshtml",
@@ -314,12 +397,11 @@
               "RelativeToolTip": "FFM\\Views\\DeliveryMen\\UpdateOrderStatus.cshtml",
               "ViewState": "AQIAAGgAAAAAAAAAAAAAwJwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T08:27:14.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T08:27:14.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "packageDetails.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\packageDetails.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\packageDetails.css",
@@ -331,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "PackageDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\PackageDetails.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\DeliveryMen\\PackageDetails.cshtml",
@@ -343,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "deliveredPackage.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\deliveredPackage.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\deliveredPackage.css",
@@ -351,12 +433,11 @@
               "RelativeToolTip": "FFM\\wwwroot\\css\\deliveredPackage.css",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAEUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-22T11:11:24.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:11:24.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "DeliveredPackage.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\DeliveredPackage.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\DeliveryMen\\DeliveredPackage.cshtml",
@@ -364,12 +445,11 @@
               "RelativeToolTip": "FFM\\Views\\DeliveryMen\\DeliveredPackage.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T11:08:42.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:08:42.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "packageAvailable.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\packageAvailable.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\packageAvailable.css",
@@ -381,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "PackageAvailable.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\PackageAvailable.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\DeliveryMen\\PackageAvailable.cshtml",
@@ -393,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\DeliveryMen\\Index.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\DeliveryMen\\Index.cshtml",
@@ -401,12 +481,11 @@
               "RelativeToolTip": "FFM\\Views\\DeliveryMen\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T05:40:42.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T05:40:42.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "DeliveryMen.cs",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Controllers\\DeliveryMen.cs",
               "RelativeDocumentMoniker": "FFM\\Controllers\\DeliveryMen.cs",
@@ -414,12 +493,11 @@
               "RelativeToolTip": "FFM\\Controllers\\DeliveryMen.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:02:42.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T08:02:42.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "index.js",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\index.js",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\js\\index.js",
@@ -431,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\index.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\index.css",
@@ -443,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Home\\Index.cshtml",
@@ -455,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "cart.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cart.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\cart.css",
@@ -467,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "Cart.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Home\\Cart.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Home\\Cart.cshtml",
@@ -479,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "viewOrders.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewOrders.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\viewOrders.css",
@@ -491,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "ViewOrders.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Home\\ViewOrders.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Home\\ViewOrders.cshtml",
@@ -509,14 +587,14 @@
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\site.css",
               "RelativeToolTip": "FFM\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAABAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-16T09:22:15.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "cusPersonalInfo.js",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\cusPersonalInfo.js",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\js\\cusPersonalInfo.js",
@@ -528,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "cusPersonalInfo.css",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\cusPersonalInfo.css",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\css\\cusPersonalInfo.css",
@@ -540,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "CusPersonalInfo.cshtml",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\Views\\Home\\CusPersonalInfo.cshtml",
               "RelativeDocumentMoniker": "FFM\\Views\\Home\\CusPersonalInfo.cshtml",
@@ -552,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "FFM\\wwwroot\\js\\site.js",

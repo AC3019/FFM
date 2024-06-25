@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewData["Title"] = "ViewDeliveryPackage";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/viewDeliveryPackage.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="back">
+        @* this can be replace by go back to previous page, dk how to do yet. Can back to index or delivery package *@
+        <a asp-area="" asp-controller="Seller" asp-action="Index" class="icon">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+            Back
+        </a>
+    </div>
+    <div class="header">
+        <h2>Details - <label>Delivery ID</label></h2>
+    </div>
+    <div class="content">
+		<div class="details">
+			<div>
+				<label><b>Order Contain: </b></label>
+				<label>4</label>
+            </div>
+			<div>
+				<label><b>Status: </b></label>
+				<label>Delivering</label>
+            </div>
+        </div>
+		<div>
+			<h3>Orders In Delivery ID</h3>
+			<div class="orders">
+                    <div class="form order">
+                        <div class="title">
+                            <span>ORDER ID</span>
+                            <div class="line"></div>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                            </div>
+                            <div>
+                                <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                            </div>
+                            <div>
+                                <label><b>Status: </b></label><label>Delivered</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form order">
+                        <div class="title">
+                            <span>ORDER ID</span>
+                            <div class="line"></div>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                            </div>
+                            <div>
+                                <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                            </div>
+                            <div>
+                                <label><b>Status: </b></label><label>Delivered</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form order">
+                        <div class="title">
+                            <span>ORDER ID</span>
+                            <div class="line"></div>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                            </div>
+                            <div>
+                                <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                            </div>
+                            <div>
+                                <label><b>Status: </b></label><label>Delivered</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form order">
+                        <div class="title">
+                            <span>ORDER ID</span>
+                            <div class="line"></div>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                            </div>
+                            <div>
+                                <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                            </div>
+                            <div>
+                                <label><b>Status: </b></label><label>Out of Delivery</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form order">
+                        <div class="title">
+                            <span>ORDER ID</span>
+                            <div class="line"></div>
+                        </div>
+                        <div class="info">
+                            <div>
+                                <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                            </div>
+                            <div>
+                                <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                            </div>
+                            <div>
+                                <label><b>Status: </b></label><label>Out of Delivery</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+﻿.back, .header {
+    padding: 0 2em;
+}
+
+.content {
+    padding-left: 2em;
+    display: grid;
+    row-gap: 1em;
+}
+
+.header {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.details {
+    display: grid;
+    row-gap: .5em;
+    font-size: 1.25em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.orders {
+    padding: 1em 0;
+    display: flex;
+    /*justify-content: center;*/
+    column-gap: 5.2em;
+    row-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.order {
+    max-width: 19%;
+}
+
+.title {
+    padding: 1em 2em 0 2em;
+}
+
+.info {
+    /*padding: .5em .5em 0 .5em;*/
+    padding: .5em 1em;
+    display: flex;
+    /*flex-direction: column;*/
+    row-gap: .5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}

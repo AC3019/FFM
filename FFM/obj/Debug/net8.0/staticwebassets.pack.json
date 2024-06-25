@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\deliveredPackage.css"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\deliveryPackage.css",
+      "PackagePath": "staticwebassets\\css\\deliveryPackage.css"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\dmIndex.css",
       "PackagePath": "staticwebassets\\css\\dmIndex.css"
     },
@@ -87,6 +91,10 @@
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\updateOrderStatus.css",
       "PackagePath": "staticwebassets\\css\\updateOrderStatus.css"
+    },
+    {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewDeliveryPackage.css",
+      "PackagePath": "staticwebassets\\css\\viewDeliveryPackage.css"
     },
     {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\css\\viewDeliveryRoute.css",

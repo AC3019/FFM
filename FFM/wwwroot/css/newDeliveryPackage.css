@@ -1,0 +1,271 @@
+﻿.back, .header {
+    padding: 0 2em;
+}
+
+.content {
+    padding-left: 2em;
+    display: grid;
+}
+
+.header {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.progressBarContainer {
+    max-width: 100%;
+    padding: 0   15em;
+}
+
+.progressBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.progressBar::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    height: 4px;
+    width: 80%;
+    top: 0%;
+    transform: translateY(380%);
+    background-color: black;
+}
+
+.progress {
+    position: absolute;
+    left: 10%;
+    background-color: var(--secondary-color);
+    height: 4px;
+    width: 0%;
+    top: 0%;
+    transform: translateY(380%);
+    transition: 0.4s ease;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25em;
+    z-index: 1;
+}
+
+.arrow {
+    all: unset;
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.iconArrow {
+    transform: translateX(30%);
+}
+
+.circle {
+    border: 2px solid var(--outline);
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.4s ease;
+    background-color: white;
+    color: black;
+}
+
+.circle.active {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.iconArrow.iconActive {
+    color: var(--secondary-color);
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    text-align: center;
+}
+
+.orders {
+    padding: 1em 0;
+    display: flex;
+    /*justify-content: center;*/
+    column-gap: 4.3em;
+    row-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.order {
+    max-width: 20%;
+}
+
+.title {
+    padding: 1em 2em 0 2em;
+}
+
+.info {
+    /*padding: .5em .5em 0 .5em;*/
+    padding: .5em 1em;
+    display: flex;
+    /*flex-direction: column;*/
+    row-gap: .5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.openDetails {
+    font-style: italic;
+    background-color: white;
+    text-decoration: underline; 
+    font-size: 1.05em;
+    cursor: pointer;
+}
+
+.openDetails:hover {
+    color: var(--secondary-color);
+}
+
+.pick {
+    border-top: 1px solid var(--outline);
+    padding: .5em 0;
+}
+
+.btnPick {
+    width: 100%;
+    justify-content: center;
+}
+
+.pick:hover {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.willDeliver {
+    padding: .5em 0;
+    font-size: 1.2em;
+}
+
+.findRoute {
+    display: flex;
+    justify-content: end;
+}
+
+.btnFindRoute {
+    width: 20%;
+    font-size: 1.1em;
+}
+
+.popUpContainer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--outline);
+    align-items: center;
+    justify-content: center;
+    /*padding: 2.5em 0 0 0;*/
+    /*padding-top: 35vh;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% + 1em);
+    background-size: cover;
+    visibility: hidden;
+    position: fixed;
+    z-index: 2;
+}
+
+.popUp {
+    width: 45%;
+    height: fit-content;
+    padding: 3em 3em;
+    border: 1px solid var(--outline);
+    box-shadow: 0 3px 16px var(--primary-color);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: justify;
+    background-color: white;
+    transform: translateY(-200%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popUp {
+    visibility: visible;
+    transform: scale(1);
+    transition-timing-function: ease-out;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderInfo {
+    padding: .5em;
+    font-size: 1.35em;
+    display: grid;
+    gap: .25em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid var(--outline);
+    border-radius: .25em;
+    margin: .5em 0;
+}
+
+.table > table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid var(--outline);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: silver;
+    text-align: left;
+}
+
+th, td {
+    padding: .5em;
+}
+
+.productColumn {
+    width: 40%
+}
+
+.quantityColumn {
+    width: 15%
+}
+
+.unitPriceColumn {
+    width: 22.5%;
+}
+
+.totalColumn {
+    width: 22.5%;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.btnClose {
+    justify-content: center;
+}

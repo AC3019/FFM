@@ -1,0 +1,160 @@
+﻿.headerPD {
+    display: flex;
+    gap: 3em;
+    padding: 0 4em;
+    width: 60%
+}
+
+.newDPBtnContainer {
+    flex: 50%;
+    align-self: center;
+}
+
+.newDPBtn {
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    border: 1px solid var(--outline);
+    background-color: white;
+    padding: .5em;
+    border-radius: .5em;
+    transition: .25s;
+    width: 120%
+}
+
+.search .searchIcon {
+    color: var(--outline);
+    transition: .25s;
+}
+
+.search .searchTextBox {
+    align-self: stretch;
+    width: 100%;
+    outline: none;
+    background-color: white;
+}
+
+.search .searchBtn {
+    padding: .25em .75em;
+}
+
+.search:focus-within {
+    border-color: var(--secondary-color);
+    box-shadow: 0 2px 16px var(--primary-shadow);
+}
+
+.search:focus-within .searchIcon {
+    color: var(--secondary-color);
+}
+
+.content {
+    padding: 1em 2em;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid var(--outline);
+    border-radius: .25em;
+    margin: .5em 1em;
+}
+
+.table > table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid var(--outline);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: silver;
+}
+
+th, td {
+    padding: .5em;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.viewBtn, .updateStatusBtn {
+    justify-content: center;
+}
+
+.updateStatusBtn {
+    width: 45%;
+}
+
+.popUpContainer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--outline);
+    align-items: center;
+   /* padding: 2.5em 0 0 0;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    visibility: hidden;
+    position: fixed;
+}
+
+.popUp {
+    width: 35%;
+    height: fit-content;
+    padding: 3em 3em;
+    border: 1px solid var(--outline);
+    box-shadow: 0 3px 16px var(--primary-color);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: justify;
+    background-color: white;
+    transform: translateY(-200%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popUp {
+    visibility: visible;
+    transform: scale(1);
+    transition-timing-function: ease-out;
+}
+
+.popUpBtn {
+    display: flex;
+    padding: 1em 5em 0em;
+    justify-content: space-between;
+}
+
+.popUpInfo {
+    font-size: 1.1em;
+    display: grid;
+    row-gap: .5em;
+}
+
+.popUpStatus {
+    display: flex;
+    gap: .5em;
+    font-size: 1.1em;
+}
+
+.statusInput > select {
+    width: 120%;
+    text-align: center;
+    font-size: .9em;
+}
+
+.btnUpdatePopUp, .btnCancelPopUp {
+    width: 25%;
+    font-size: 1em;
+}
+

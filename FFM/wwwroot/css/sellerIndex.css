@@ -32,7 +32,7 @@
 }
 
 .header {
-    padding: 1em 1em;
+    padding: 2em 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,12 +100,120 @@
     text-align: center;
     max-width: 17%;
     min-width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .packageInfo {
-    padding: .5em;
+    padding: .75em;
 }
 
 .caption {
-    padding: 1em 0 .5em 0;
+    padding: 1.75em 0 .5em 0;
+}
+
+.popUpContainer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--outline);
+    align-items: center;
+    justify-content: center;
+    /*padding: 2.5em 0 0 0;*/
+    /*padding-top: 35vh;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% + 1em);
+    background-size: cover;
+    visibility: hidden;
+    position: fixed;
+    z-index: 2;
+}
+
+.popUp {
+    width: 45%;
+    height: fit-content;
+    padding: 3em 3em;
+    border: 1px solid var(--outline);
+    box-shadow: 0 3px 16px var(--primary-color);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: justify;
+    background-color: white;
+    transform: translateY(-200%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popUp {
+    visibility: visible;
+    transform: scale(1);
+    transition-timing-function: ease-out;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popOutOrderInfo {
+    padding: .5em;
+    font-size: 1.35em;
+    display: grid;
+    gap: .25em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid var(--outline);
+    border-radius: .25em;
+    margin: .5em 0;
+}
+
+.table > table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid var(--outline);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: silver;
+    text-align: left;
+}
+
+th, td {
+    padding: .5em;
+}
+
+.productColumn {
+    width: 40%
+}
+
+.quantityColumn {
+    width: 15%
+}
+
+.unitPriceColumn {
+    width: 22.5%;
+}
+
+.totalColumn {
+    width: 22.5%;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.btnClose {
+    justify-content: center;
 }

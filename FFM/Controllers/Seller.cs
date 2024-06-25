@@ -28,5 +28,20 @@ namespace FFM.Controllers
         {
             return View();
         }
+
+        public IActionResult DeliveryPackage()
+        {
+            return View();
+        }
+
+        public IActionResult ViewDeliveryPackage()
+        {
+            return View();
+        }
+
+        public IActionResult NewDeliveryPackage()
+        {
+            return View();
+        }
     }
 }

@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="viewDetails">
-                        <a asp-area="" asp-controller="Seller" asp-action="" class="viewDetailsBtn icon">
+                        <a class="viewDetailsBtn icon" onclick="openPopUp()">
                             View Details
                         </a>
                     </div>
@@ -64,7 +64,7 @@
                         </h3>
                     </div>
                     <div class="buttons">
-                        <a asp-area="" asp-controller="Seller" asp-action="PackageDetails" class="viewDPBtn icon">
+                        <a asp-area="" asp-controller="Seller" asp-action="DeliveryPackage" class="viewDPBtn icon">
                             View Delivery Package
                         </a>
                     </div>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="viewDetails">
-                            <a asp-area="" asp-controller="Seller" asp-action="ViewPackageDetails" class="viewDetailsBtn icon">
+                            <a asp-area="" asp-controller="Seller" asp-action="ViewDeliveryPackage" class="viewDetailsBtn icon">
                                 View Details
                             </a>
                         </div>
@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <div class="viewDetails">
-                            <a asp-area="" asp-controller="Seller" asp-action="ViewPackageDetails" class="viewDetailsBtn icon">
+                            <a asp-area="" asp-controller="Seller" asp-action="ViewDeliveryPackage" class="viewDetailsBtn icon">
                                 View Details
                             </a>
                         </div>
@@ -106,6 +106,49 @@
             </div>
         </div>
     </div>
+    <div class="popUpContainer" id="popUpContainer">
+        <div class="popUp" id="popUp">
+            <div class="form-header">
+                <a class="icon" onclick="closePopUp()">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </a>
+                <h1>ORDER ID</h1>
+                @* add to make it display center *@
+                <div class="none">
+                    display
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="popOutOrderInfo">
+                <p>Purchase Date: @DateTime.Today.ToShortDateString()</p>
+                <p>Puchase Amount: RM 123.45</p>
+            </div>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th class="productColumn">PRODUCT NAME</th>
+                        <th class="quantityColumn">QUANTITY</th>
+                        <th class="unitPriceColumn">UNIT PRICE</th>
+                        <th class="totalColumn">TOTAL</th>
+                    </tr>
+                    <tr>
+                        <td>Maggie</td>
+                        <td>10</td>
+                        <td>1</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="close">
+                <a class="icon btnPrimary btnClose" onclick="closePopUp()">
+                    CLOSE
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/popUp.js" asp-append-version="true"></script>
 </body>
 </html>
 

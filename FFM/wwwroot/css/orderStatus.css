@@ -26,16 +26,16 @@
     position: relative;
 }
 
-    .progressBar::before {
-        content: "";
-        position: absolute;
-        left: 10%;
-        height: 4px;
-        width: 80%;
-        top: 0%;
-        transform: translateY(380%);
-        background-color: black;
-    }
+.progressBar::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    height: 4px;
+    width: 80%;
+    top: 0%;
+    transform: translateY(380%);
+    background-color: black;
+}
 
 .progress {
     position: absolute;
