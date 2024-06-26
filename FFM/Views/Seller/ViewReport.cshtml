@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "ViewReport";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/viewReport.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="back">
+        @* this can be replace by go back to previous page, dk how to do yet. Can back to index or delivery package *@
+        <a asp-area="" asp-controller="Seller" asp-action="Report" class="icon">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+            Back
+        </a>
+    </div>
+    <div class="header">
+        <h2>Details of <label>Weekly Sales Report</label></h2>
+    </div>
+    <div class="content">
+		<div class="details">
+            <div>
+                <label>Report Title: </label>
+                <label>Weekly Sales Report</label>
+            </div>
+            <div>
+                <label>Date Generated: </label>
+                <label>@DateTime.Today.ToString()</label>
+            </div>
+            <div>
+                <label>Total Sales: RM </label>
+                <label>123.45</label>
+            </div>
+        </div>
+		<div class="chart form">
+            this will be replace by google chart api
+        </div>
+    </div>
+</body>
+</html>
+

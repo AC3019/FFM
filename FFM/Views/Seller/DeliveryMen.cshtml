@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewData["Title"] = "DeliveryMen";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/deliveryMen.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="headerDM">
+        <div class="newDMBtnContainer">
+            <a class="btnPrimary newDMBtn icon" onclick="openPopUpCreate()">
+                New Delivery Man Account
+            </a>
+        </div>
+        <div class="icon search">
+            <span class="material-symbols-outlined searchIcon">
+                search
+            </span>
+            <input type="text" name="item" value="" class="searchTextBox" placeholder="Delivery Men ID" />
+            <div>
+                <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>List of Delivery Men Account</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>deliveryman</td>
+                    <td>deliveryman@gmail.com</td>
+                    <td>0123456789</td>
+                    <td>
+                        <div class="actions">
+                            <a class="btnPrimary deleteBtn icon" onclick="openPopUp()">
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpContainer">
+        <div class="popUp" id="popUp">
+            <h2>Delete Delivery Man Account</h2>
+            <div class="popUpDMInfo">
+                <div class="name">
+                    <label>Name: </label>
+                    <label>deliverymen</label>
+                </div>
+                <div class="username">
+                    <label>Username: </label>
+                    <label>Ali</label>
+                </div>
+                <div class="email">
+                    <label>Email: </label>
+                    <label>deliverymen@gmail.com</label>
+                </div>
+                <div class="phoneNum">
+                    <label>Phone Number: </label>
+                    <label>0123456789</label>
+                </div>
+            </div>
+			<div class="line"></div>
+            <div class="popUpDelete">
+				<p>
+                    By confirming this action, the account will be permanently remove and all the data associated with it and you will not able to recover back the account and the associated data.
+                </p>
+            </div>
+            <div class="popUpBtn">
+                <input type="submit" value="DELETE" class="btnPrimary btnDeletePopUp" onclick="" />
+                <input type="submit" value="CLOSE" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpCreateContainer">
+        <div class="popUpCreate" id="popUpCreate">
+            <h2>Create Delivery Man Account</h2>
+            <div class="popUpInput">
+				<div>
+					<div class="genericInputField input">
+                        <label><b>Name</b></label>
+						<input type="text" value="" placeholder="Lim" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Username</b></label>
+                        <input type="text" value="" placeholder="Lim" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Password</b></label>
+						<input type="password" value="" />
+                    </div>
+                </div>
+				<div>
+                    <div class="genericInputField input">
+                        <label><b>Email</b></label>
+						<input type="text" value="" placeholder="example@gmail.com" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Phone Number</b></label>
+                        <input type="text" value="" placeholder="0123456789" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Confirm Password</b></label>
+                        <input type="password" value="" />
+                    </div>
+                </div>
+            </div>
+            <div class="popUpBtn">
+                <input type="submit" value="CREATE" class="btnPrimary btnCreatePopUp" onclick="" />
+                <input type="submit" value="CLOSE" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <script src="~/js/popUp.js" asp-append-version="true"></script>
+</body>
+</html>

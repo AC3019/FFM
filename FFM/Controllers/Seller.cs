@@ -43,5 +43,25 @@ namespace FFM.Controllers
         {
             return View();
         }
-    }
+
+		public IActionResult DeliveryMen()
+		{
+			return View();
+		}
+
+        public IActionResult Report()
+        {
+            return View();
+        }
+
+		public IActionResult ViewReport()
+		{
+			return View();
+		}
+
+		public IActionResult Item()
+		{
+			return View();
+		}
+	}
 }

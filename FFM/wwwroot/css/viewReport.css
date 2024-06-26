@@ -1,0 +1,32 @@
+﻿.back, .header {
+    padding: 0 2em;
+}
+
+.content {
+    padding: 1em 6em;
+    display: grid;
+    row-gap: 1em;
+}
+
+.header {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.details {
+    display: grid;
+    row-gap: .5em;
+    font-size: 1.25em;
+}
+
+.form {
+    border: 1px solid var(--outline);
+    /*padding: 1em 2em;*/
+    border-radius: .5em;
+    text-align: center;
+}
+
+.chart {
+    background-color: var(--outline);
+    color: white;
+}

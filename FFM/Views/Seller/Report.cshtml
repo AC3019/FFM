@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewData["Title"] = "Report";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/report.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="headerReport">
+        <div class="newReportBtnContainer">
+            <a class="btnPrimary newReportBtn icon" onclick="openPopUpCreate()">
+                New Report
+            </a>
+        </div>
+        <div class="icon search">
+            <span class="material-symbols-outlined searchIcon">
+                search
+            </span>
+            <input type="text" name="item" value="" class="searchTextBox" placeholder="Report ID" />
+            <div>
+                <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>List of Report</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Report Title</th>
+                    <th>Date Generated</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Weekly Sales Report</td>
+                    <td>@DateTime.Today.ToString()</td>
+                    <td>
+                        <div class="actions">
+                            <a asp-area="" asp-controller="Seller" asp-action="ViewReport" class="btnPrimary viewBtn icon">
+                                VIEW
+                            </a>
+                            <a asp-area="" asp-controller="Seller" asp-action="" class="btnPrimary printBtn icon">
+                                Print
+                            </a>
+                            <a class="btnPrimary deleteBtn icon" onclick="openPopUp()">
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpContainer">
+        <div class="popUp" id="popUp">
+            <h2>Delete A Report</h2>
+            <div class="popUpDMInfo">
+                <div>
+                    <label>Report Title: </label>
+                    <label>Weekly Sales Report</label>
+                </div>
+                <div>
+                    <label>Date Generated: </label>
+                    <label>@DateTime.Today.ToString()</label>
+                </div>
+            </div>
+			<div class="line"></div>
+            <div class="popUpDelete">
+                <p>
+                    By confirming this action, the report will be permanently remove from the system.
+                </p>
+            </div>
+            <div class="popUpBtn">
+                <input type="submit" value="DELETE" class="btnPrimary btnDeletePopUp" onclick="" />
+                <input type="submit" value="CLOSE" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpCreateContainer">
+        <div class="popUpCreate" id="popUpCreate">
+            <h2>Create A New Report</h2>
+            <div class="popUpInput">
+                <div class="genericInputField input">
+                    <label><b>Report Type</b></label>
+                    <select id="reportType">
+                        <option value="daily">Daily Report</option>
+                        <option value="weekly">Weekly Report</option>
+                    </select>
+                </div>
+                <div id="daily" class="">
+                    <div class="genericInputField input">
+                        <label><b>Select The Date</b></label>
+                        <input type="date" value=""  />
+                    </div>
+                </div>
+                <div id="weekly" class="weekly hidden">
+                    <div class="genericInputField input">
+                        <label><b>Start Date</b></label>
+                        <input type="date" value="" />
+                    </div>
+					<div class="to">
+					    <span><b>to</b></span>
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>End Date</b></label>
+                        <input type="date" value="" />
+                    </div>
+                </div>
+            </div>
+            <div class="popUpBtn">
+                <input type="submit" value="CREATE" class="btnPrimary btnCreatePopUp" onclick="" />
+                <input type="submit" value="CLOSE" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <script src="~/js/popUp.js" asp-append-version="true"></script>
+    <script src="~/js/report.js" asp-append-version="true"></script>
+</body>
+</html>
+
