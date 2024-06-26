@@ -4,5 +4,154 @@
     Layout = "~/Views/Shared/_LayoutSeller.cshtml";
 }
 
-<h1>Item</h1>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/item.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="headerItem">
+        <div class="newItemBtnContainer">
+            <a asp-area="" asp-controller="Seller" asp-action="NewItem" class="btnPrimary newItemBtn icon">
+                New Item
+            </a>
+        </div>
+        <div class="icon search">
+            <span class="material-symbols-outlined searchIcon">
+                search
+            </span>
+            <input type="text" name="item" value="" class="searchTextBox" placeholder="Item ID" />
+            <div>
+                <input type="submit" name="" value="Search" class="btnPrimary searchBtn" />
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>List of Item</h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Item Name</th>
+                    <th>Category</th>
+					<th>Status</th>
+					<th>Origin</th>
+					<th>Price</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Cabbage</td>
+                    <td>Vegetables</td>
+					<td>Normal</td>
+					<td>China</td>
+					<td>RM 5 / KG</td>
+                    <td>
+                        <div class="actions">
+                            <a class="btnPrimary viewBtn icon" onclick="openPopUpCreate()">
+                                VIEW
+                            </a>
+                            <a asp-area="" asp-controller="Seller" asp-action="UpdateItem" class="btnPrimary printBtn icon">
+                                Update
+                            </a>
+                            <a class="btnPrimary deleteBtn icon" onclick="openPopUp()">
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpContainer">
+        <div class="popUp" id="popUp">
+            <h2>Delete For <label>Item ID</label></h2>
+            <div class="popUpContent">
+                <div class="popUpInfo">
+                    <div>
+                        <label><b>Name: </b></label>
+                        <label>Cabbage</label>
+                    </div>
+                    <div>
+                        <label><b>Category: </b></label>
+                        <label>Vegetables</label>
+                    </div>
+                    <div>
+                        <label><b>Origin: </b></label>
+                        <label>China</label>
+                    </div>
+                    <div>
+                        <label><b>Price: </b></label>
+                        <label>RM 5 / KG</label>
+                    </div>
+                    <div>
+                        <label><b>Status: </b></label>
+                        <label>Normal</label>
+                    </div>
+                </div>
+                <div class="popUpPic">
+                    <img src="~/res/vegetable.jpg" alt="" />
+                </div>
+            </div>
+            @* <div class="line"></div> *@
+            <div class="popUpDelete">
+                <p>
+                    By confirming this action, the item will be permanently remove from the system.
+                </p>
+            </div>
+            <div class="popUpDeleteBtn">
+                <input type="submit" value="DELETE" class="btnPrimary btnDeletePopUp" onclick="" />
+                <input type="submit" value="CLOSE" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <div class="popUpContainer" id="popUpCreateContainer">
+        <div class="popUpCreate" id="popUpCreate">
+            <h2>Details For <label>Item ID</label></h2>
+            <div class="popUpContent">
+				<div class="popUpInfo">
+                    <div>
+                        <label><b>Name: </b></label>
+                        <label>Cabbage</label>
+                    </div>
+                    <div>
+                        <label><b>Category: </b></label>
+                        <label>Vegetables</label>
+                    </div>
+                    <div>
+                        <label><b>Origin: </b></label>
+                        <label>China</label>
+                    </div>
+                    <div>
+                        <label><b>Price: </b></label>
+                        <label>RM 5 / KG</label>
+                    </div>
+                    <div>
+                        <label><b>Date Harvest: </b></label>
+                        <label>@DateTime.Today.ToString()</label>
+                    </div>
+                    <div>
+                        <label><b>Quantity: </b></label>
+                        <label>30</label>
+                    </div>
+                    <div>
+                        <label><b>Status: </b></label>
+                        <label>Normal</label>
+                    </div>
+                </div>
+				<div class="popUpPic">
+					<img src="~/res/vegetable.jpg" alt="" />
+                </div>
+            </div>
+            <div class="popUpBtn">
+                <input type="submit" value="CLOSE" class="btnPrimary btnCancelPopUp" onclick="closePopUp()" />
+            </div>
+        </div>
+    </div>
+    <script src="~/js/popUp.js" asp-append-version="true"></script>
+    <script src="~/js/report.js" asp-append-version="true"></script>
+</body>
+</html>
 

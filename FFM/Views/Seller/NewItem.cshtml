@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewData["Title"] = "NewItem";
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/newUpdateItem.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="back">
+        @* this can be replace by go back to previous page, dk how to do yet. Can back to index or delivery package *@
+        <a asp-area="" asp-controller="Seller" asp-action="Item" class="icon">
+            <span class="material-symbols-outlined">
+                arrow_back
+            </span>
+            Back
+        </a>
+    </div>
+    <div class="header">
+        <h2>Create New Item</h2>
+    </div>
+    <div class="content">
+	    <form action="post">
+			<div class="form">
+                <div class="form1">
+                    <div class="genericInputField input">
+                        <label><b>Item Name</b></label>
+                        <input type="text" value="" placeholder="Apple" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Category</b></label>
+                        <select>
+                            <option value="Chicken">Chicken</option>
+                            <option value="Fish">Fish</option>
+                            <option value="Fruits">Fruits</option>
+                            <option value="Vegetables">Vegetables</option>
+                            <option value="Meat">Meat</option>
+                        </select>
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Origin</b></label>
+                        <input type="text" value="" placeholder="China" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Date Harvest</b></label>
+                        <input type="date" value="" />
+                    </div>
+                </div>
+                <div class="form2">
+                    <div class="genericInputField input">
+                        <label><b>Quantity</b></label>
+                        <input type="number" value="" placeholder="10" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Price (RM)</b></label>
+                        <input type="number" value="" placeholder="123.45" />
+                    </div>
+                    <div class="genericInputField input">
+                        <label><b>Price Unit</b></label>
+                        <select>
+                            <option value="/ KG">Per Kilogram (KG)</option>
+                            <option value="/ Pack">Per Pack</option>
+                        </select>
+                    </div>
+                    <div class=" input">
+                        <label><b>Image</b></label>
+                        <div>
+                            <input type="file" value="" accept="image/*" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="btnCreateContainer">
+                <input type="submit" class="btnPrimary btnCreate" value="Create" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

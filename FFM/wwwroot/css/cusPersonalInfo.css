@@ -128,9 +128,9 @@
     top: 0;
     left: 0;
     right: 0;
-    height: calc(100% + 1em);
+    height: 100%;
     visibility: hidden;
-    position: absolute; 
+    position: fixed; 
 }
 
 .popUp {

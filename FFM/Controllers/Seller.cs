@@ -63,5 +63,15 @@ namespace FFM.Controllers
 		{
 			return View();
 		}
-	}
+
+        public IActionResult NewItem()
+        {
+            return View();
+        }
+
+        public IActionResult UpdateItem()
+        {
+            return View();
+        }
+    }
 }
