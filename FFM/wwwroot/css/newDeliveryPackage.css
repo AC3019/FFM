@@ -12,9 +12,57 @@
     padding: 1em 0;
 }
 
+/*.progressBarContainer {*/
+    /*max-width: 100%;
+    padding: 0 15em 0 17em;*/
+    /*display: block;
+}*/
+
+/*.progressBar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 1em 15em 2em 17em;
+}
+
+.progressBar::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+}
+
+.progressStep {
+    border: 2px solid var(--outline);
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressStep::before {
+    counter-increment: step;
+    content: counter(step);
+}
+
+.progressStep::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    font-size: 0.85rem;
+
+}*/
+
 .progressBarContainer {
     max-width: 100%;
-    padding: 0   15em;
+    padding: 0 15em 0 17em;
 }
 
 .progressBar {
@@ -89,6 +137,27 @@
     color: var(--secondary-color);
 }
 
+.create-step {
+    display: none;
+    transform: translateX(100%);
+    animation: slideInFromRight 0.4s forwards;
+}
+
+.create-step-active {
+    display: block;
+}
+
+@keyframes slideInFromRight {
+    /* Start off-screen */
+    0% {
+        transform: translateX(100%);
+    }
+    /* Move to on-screen */
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .form {
     border: 1px solid var(--outline);
     /*padding: 1em 2em;*/
@@ -155,14 +224,72 @@
     font-size: 1.2em;
 }
 
+.createPackageInfo {
+    flex: 1%;
+    width: 60%;
+    display: grid;
+    padding: 1em 0;
+    row-gap: 1em;
+}
+
+.map {
+    flex: 60%;
+    padding: 1em 0;
+    display: grid;
+}
+
+.map > div {
+    align-self: stretch;
+}
+
 .findRoute {
     display: flex;
     justify-content: end;
 }
 
-.btnFindRoute {
+.createPackage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnFindRoute, .btnCreatePackage, .btnChooseOrder {
     width: 20%;
     font-size: 1.1em;
+}
+
+.algo {
+    width: 75%;
+    padding: 1em;
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+
+.orderSelected {
+    padding: 1em 2em .5em 2em;
+    width: 60%;
+}
+
+.orderHeader > span {
+    font-size: 1.35em;
+}
+
+.orderList {
+    padding: .5em 1.5em;
+}
+
+.orderList > ul {
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+}
+
+.route {
+    padding: 1.25em 0 .5em 3em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    font-size: 1.2em;
 }
 
 .popUpContainer {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QeGuW0r8UyBIhP1p1bsN4ZAG9355w9PD1pT0aXB5mVU=",
+  "Hash": "Qx2LIhGUR7meYHgD+8IqQhSPHi27MZoQex9EUYPGGzw=",
   "Source": "FFM",
   "BasePath": "_content/FFM",
   "Mode": "Default",
@@ -661,6 +661,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\createPackage.js",
+      "SourceId": "FFM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\",
+      "BasePath": "_content/FFM",
+      "RelativePath": "js/createPackage.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\createPackage.js"
     },
     {
       "Identity": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\index.js",

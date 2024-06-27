@@ -21,176 +21,246 @@
             Back
         </a>
     </div>
+    @* <div class="progressBarContainer">
+        <div class="progressBar">
+            <div class="progressStep" data-title="Choose Order"></div>
+            ▶ 
+            <div class="progressStep" data-title="Choose Route"></div>
+             ▶ 
+            <div class="progressStep" data-title="Package Created"></div>
+        </div>
+    </div> *@
+    <div class="progressBarContainer">
+        <div class="progressBar">
+            <div class="progress" id="progress"></div>
+            <div class="step">
+                <div class="circle active">
+                    1
+                </div>
+                Choose Order
+            </div>
+            <div class="step">
+                <div class="arrow">
+                    <div class="iconArrow">
+                        ▶
+                    </div>
+                    <div class="circle">
+                        2
+                    </div>
+                </div>
+                Choose Route
+            </div>
+            <div class="step">
+                <div class="arrow">
+                    <div class="iconArrow">
+                        ▶
+                    </div>
+                    <div class="circle">
+                        3
+                    </div>
+                </div>
+                Package Created
+            </div>  
+        </div>
+    </div>
     <div class="content">
-        <div class="progressBarContainer">
-            <div class="progressBar">
-                <div class="progress" id="progress"></div>
-                <div class="step">
-                    <div class="circle active">
-                        1
+		<div id="step1" class="create-step create-step-active">
+            <h3>Orders Available</h3>
+            <div class="orders">
+                <div class="form order">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
                     </div>
-                    Choose Order
-                </div>
-                <div class="step">
-                    <div class="arrow">
-                        <div class="iconArrow">
-                            ▶
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
                         </div>
-                        <div class="circle">
-                            2
+                        <div>
+                            <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
                         </div>
-                    </div>
-                    Choose Route
-                </div>
-                <div class="step">
-                    <div class="arrow">
-                        <div class="iconArrow">
-                            ▶
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
                         </div>
-                        <div class="circle">
-                            3
+                        <div>
+                            <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
                         </div>
                     </div>
-                    Package Created
-                </div>  
+                    <div class="pick">
+                        <button class="icon btnPick">
+                            PICK
+                        </button>
+                    </div>
+                </div>
+                <div class="form order">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
+                        </div>
+                    </div>
+                    <div class="pick">
+                        <button class="icon btnPick">
+                            PICK
+                        </button>
+                    </div>
+                </div>
+                <div class="form order">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
+                        </div>
+                    </div>
+                    <div class="pick">
+                        <button class="icon btnPick">
+                            PICK
+                        </button>
+                    </div>
+                </div>
+                <div class="form order">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
+                        </div>
+                    </div>
+                    <div class="pick">
+                        <button class="icon btnPick">
+                            PICK
+                        </button>
+                    </div>
+                </div>
+                <div class="form order">
+                    <div class="title">
+                        <span>ORDER ID</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <label><b>Purchase Amount: </b></label><label>RM123.45</label>
+                        </div>
+                        <div>
+                            <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
+                        </div>
+                        <div>
+                            <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
+                        </div>
+                    </div>
+                    <div class="pick">
+                        <button class="icon btnPick">
+                            PICK
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>        
-        <h3>Orders Available</h3>
-        <div class="orders">
-            <div class="form order">
-                <div class="title">
-                    <span>ORDER ID</span>
-                    <div class="line"></div>
-                </div>
-                <div class="info">
-                    <div>
-                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
-                    </div>
-                    <div>
-                        <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
-                    </div>
-                    <div>
-                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
-                    </div>
-                </div>
-                <div class="pick">
-                    <button class="icon btnPick">
-                        PICK
-                    </button>
-                </div>
+            <div class="willDeliver">
+                <label><b>Will Deliver: </b></label>
+                <label>Order ID, Order ID, Order ID</label>
             </div>
-            <div class="form order">
-                <div class="title">
-                    <span>ORDER ID</span>
-                    <div class="line"></div>
-                </div>
-                <div class="info">
-                    <div>
-                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
-                    </div>
-                    <div>
-                        <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
-                    </div>
-                    <div>
-                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
-                    </div>
-                </div>
-                <div class="pick">
-                    <button class="icon btnPick">
-                        PICK
-                    </button>
-                </div>
-            </div>
-            <div class="form order">
-                <div class="title">
-                    <span>ORDER ID</span>
-                    <div class="line"></div>
-                </div>
-                <div class="info">
-                    <div>
-                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
-                    </div>
-                    <div>
-                        <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
-                    </div>
-                    <div>
-                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
-                    </div>
-                </div>
-                <div class="pick">
-                    <button class="icon btnPick">
-                        PICK
-                    </button>
-                </div>
-            </div>
-            <div class="form order">
-                <div class="title">
-                    <span>ORDER ID</span>
-                    <div class="line"></div>
-                </div>
-                <div class="info">
-                    <div>
-                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
-                    </div>
-                    <div>
-                        <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
-                    </div>
-                    <div>
-                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
-                    </div>
-                </div>
-                <div class="pick">
-                    <button class="icon btnPick">
-                        PICK
-                    </button>
-                </div>
-            </div>
-            <div class="form order">
-                <div class="title">
-                    <span>ORDER ID</span>
-                    <div class="line"></div>
-                </div>
-                <div class="info">
-                    <div>
-                        <label><b>Purchase Amount: </b></label><label>RM123.45</label>
-                    </div>
-                    <div>
-                        <label><b>Purchase Date: </b></label><label>@DateTime.Today.ToString()</label>
-                    </div>
-                    <div>
-                        <label><b>Delivery Address: </b></label><label>14, Persiaran Pantai Jerjak 4, 11900 Bayan Lepas, Pulau Pinanag</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Order Details" class="openDetails" onclick="openPopUp()" />
-                    </div>
-                </div>
-                <div class="pick">
-                    <button class="icon btnPick">
-                        PICK
-                    </button>
-                </div>
+            <div class="findRoute">
+                <button class="btnPrimary btnFindRoute" id="next">
+                    Find Delivery Route
+                </button>
             </div>
         </div>
-		<div class="willDeliver">
-            <label><b>Will Deliver: </b></label>
-			<label>Order ID, Order ID, Order ID</label>
-		</div>
-		<div class="findRoute">
-			<button class="btnPrimary btnFindRoute">
-                Find Delivery Route
-            </button>
+		<div id="step2" class="create-step">
+			<h3>Find Delivery Route</h3>
+			<div class="flex">
+				<div class="createPackageInfo">
+                    <div class="genericInputField form algo">
+                        Method:
+						<select>
+                            <option value="pso"><b>PSO</b></option>
+                            <option value="ga"><b>GA</b></option>
+                        </select>
+                    </div>
+                    <div class="orderSelected form">
+                        <div class="orderHeader">
+                            <span><b>Delivery ID</b></span>
+                        </div>
+						<div class="line"></div>
+                        <div class="orderList">
+                            <ul>
+                                <li>Order ID</li>
+                                <li>Order ID</li>
+                                <li>Order ID</li>
+                                <li>Order ID</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="map">
+					<div class="form">
+                        map showing the route
+                    </div>
+                </div>
+            </div>
+            <div class="route">
+                <label>Delivery Route: </label>
+                <div class="icon">
+                    Order ID
+                    <span class="material-symbols-outlined">
+                        arrow_forward
+                    </span>
+                    Order ID
+                    <span class="material-symbols-outlined">
+                        arrow_forward
+                    </span>
+                    Order ID
+                    <span class="material-symbols-outlined">
+                        arrow_forward
+                    </span>
+                    Order ID
+                </div>
+            </div>
+            <div class="createPackage">
+                <button class="btnPrimary btnChooseOrder" id="pre">
+                    Choose Orders
+                </button>
+                <button class="btnPrimary btnCreatePackage" id="next">
+                    Create Package
+                </button>
+            </div>
         </div>
     </div>
     <div class="popUpContainer" id="popUpContainer">
@@ -236,6 +306,7 @@
         </div>
     </div>
     <script src="~/js/popUp.js" asp-append-version="true"></script>
+    <script src="~/js/createPackage.js" asp-append-version="true"></script>
 </body>
 </html>
 

@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\createPackage.js",
+      "PackagePath": "staticwebassets\\js\\createPackage.js"
+    },
+    {
       "Id": "C:\\Users\\User-PC\\Documents\\FFM\\FFM\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
     },
